@@ -1,6 +1,7 @@
 name: Flow-CI-Honkit
 
 on:
+  workflow_dispatch:
   push:
     branches:
         - master # pls change trigger on each repos
@@ -13,5 +14,7 @@ jobs:
   Build-Deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Fetch snapshot
+        run: npm run build
       - name: Build and deploy
         uses: monstar-lab-oss/honkit-ghpages-action@main
