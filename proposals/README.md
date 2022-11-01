@@ -3,4 +3,4 @@
   Full list of QIPs (QiDAO Improvement Proposals). Data generated from the official snapshot with the intent of making it easier to search through all the proposals.
   
   ---
-  *Last updated at 2022-11-01T19:57:01.520Z*
+  *Last updated at 2022-11-01T20:06:46.920Z*
