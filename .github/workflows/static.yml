@@ -15,6 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch snapshot
-        run: cd .. && npm run build
+        run: ./npm run build
       - name: Build and deploy
         uses: monstar-lab-oss/honkit-ghpages-action@main
