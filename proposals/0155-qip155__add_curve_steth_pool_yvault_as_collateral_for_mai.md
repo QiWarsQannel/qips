@@ -1,9 +1,12 @@
+
+# [QIP155: Add Curve stETH Pool yVault as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x7e62bfa80943372f6bc6c67383d8808f9034d7a68fbc53eee7867d73601a76d2)
+
 ---
-title: QIP155: Add Curve stETH Pool yVault as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x7e62bfa80943372f6bc6c67383d8808f9034d7a68fbc53eee7867d73601a76d2
-start: 2022-09-12T11:18:03.000Z
-end: 2022-09-15T11:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-09-12T11:18:03.000Z | 2022-09-15T11:00:00.000Z |
+
+
 yvstETH is a receipt token for an stETH strategy on Yearn Finance. The strategy earns 7.43% APY, which comes from Curve Finance.
 
 At the time of writing, yvstETH has a TVL of over $100M on Ethereum. 
@@ -32,6 +35,7 @@ The option with the most votes will be adopted.
 Risk grading: C+
 
 https://riskmanagement.qidao.community/en/tokens/curve-steth-ethereum 
+
 ---
 | Choices | Score |
 | --- | --- |

@@ -1,9 +1,12 @@
+
+# [QIP088: Add GNO as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x89399f4bcb8e52cfefb6a583003ec8d2ee270972e11c2c1000b9a0244ed90c5a)
+
 ---
-title: QIP088: Add GNO as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x89399f4bcb8e52cfefb6a583003ec8d2ee270972e11c2c1000b9a0244ed90c5a
-start: 2022-04-20T08:08:04.000Z
-end: 2022-04-23T08:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-04-20T08:08:04.000Z | 2022-04-23T08:00:00.000Z |
+
+
 GNO is the governance token for Gnosis. It's current market cap is around $650M. Liquidity for GNO on Gnosis Chain is here: https://xdai.curve.fi/factory/0
 
 ### Motivation
@@ -30,6 +33,7 @@ A weighted average will be used to decide on the minimum CDR if the following co
 * Further discussions needed
 
 *min CDR = minimum collateral to debt ratio
+
 ---
 | Choices | Score |
 | --- | --- |

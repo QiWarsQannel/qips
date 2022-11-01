@@ -1,9 +1,12 @@
+
+# [QIP050: Engage in Token OTC Deal with Tomb Finance Chairman](https://snapshot.org/#/qidao.eth/proposal/0x0bd45f949abb5e511c8c8f227f2494808123fef0effe38b33422f0b478070bb3)
+
 ---
-title: QIP050: Engage in Token OTC Deal with Tomb Finance Chairman
-url: https://snapshot.org/#/qidao.eth/proposal/0x0bd45f949abb5e511c8c8f227f2494808123fef0effe38b33422f0b478070bb3
-start: 2021-12-23T22:00:00.000Z
-end: 2021-12-26T22:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-12-23T22:00:00.000Z | 2021-12-26T22:00:00.000Z |
+
+
 The Tomb Finance chairman (Harry Yeh) would like to purchase 1M Qi in an OTC trade with QiDao.
 
 QiDao has recently partnered with Tomb Finance to create a lending market on Market.xyz. Tomb has hence seeded several markets with MAI on numerous DEXs: QuickSwap, Pangolin, Trader Joe, and PancakeSwap. This is with the aim of supporting our pursuit for a Chainlink oracle.
@@ -26,6 +29,7 @@ The option with the most votes will be approved.
 
 * Approve deal
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

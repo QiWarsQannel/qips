@@ -1,9 +1,12 @@
+
+# [QIP055: Partner with Frax Finance](https://snapshot.org/#/qidao.eth/proposal/0xa7f827da106fffb48b82352fb89cd8d284b3783dd527709ef8434d34ad024f02)
+
 ---
-title: QIP055: Partner with Frax Finance
-url: https://snapshot.org/#/qidao.eth/proposal/0xa7f827da106fffb48b82352fb89cd8d284b3783dd527709ef8434d34ad024f02
-start: 2022-01-06T04:00:00.000Z
-end: 2022-01-09T04:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-01-06T04:00:00.000Z | 2022-01-09T04:00:00.000Z |
+
+
 Proposal from Frax Finance:
 
 This proposal is to add FXS as collateral for MAI, add MAI as collateral for FRAX and create a FRAX-MAI LP.
@@ -36,6 +39,7 @@ The option with the most votes will be accepted.
 
 * Approve partnership
 * Further discussions needed
+
 
 ---
 | Choices | Score |

@@ -1,9 +1,12 @@
+
+# [QIP086: Kickstart QI and MAI liquidity on Optimism](https://snapshot.org/#/qidao.eth/proposal/0x04c77e6120c5f2f40b25e1a94ae34c04a6567d40b53981370bab866a79f5a136)
+
 ---
-title: QIP086: Kickstart QI and MAI liquidity on Optimism
-url: https://snapshot.org/#/qidao.eth/proposal/0x04c77e6120c5f2f40b25e1a94ae34c04a6567d40b53981370bab866a79f5a136
-start: 2022-04-11T15:05:18.000Z
-end: 2022-04-14T11:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-04-11T15:05:18.000Z | 2022-04-14T11:00:00.000Z |
+
+
 In order to kickstart our growth on this chain, it is necessary to have some liquidity for MAI.
 
 ### Proposal
@@ -35,6 +38,7 @@ The option with the most votes will be adopted.
 
 * Accept proposal
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

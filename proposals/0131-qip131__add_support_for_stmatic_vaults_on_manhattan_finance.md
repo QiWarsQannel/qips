@@ -1,9 +1,12 @@
+
+# [QIP131: Add Support for stMATIC Vaults on Manhattan Finance](https://snapshot.org/#/qidao.eth/proposal/0xdd5a10af5ae39932b2c3fa6f46f951da4676a93dbba90da381b84264fa7951ba)
+
 ---
-title: QIP131: Add Support for stMATIC Vaults on Manhattan Finance
-url: https://snapshot.org/#/qidao.eth/proposal/0xdd5a10af5ae39932b2c3fa6f46f951da4676a93dbba90da381b84264fa7951ba
-start: 2022-07-28T22:49:57.000Z
-end: 2022-07-31T17:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-07-28T22:49:57.000Z | 2022-07-31T17:00:00.000Z |
+
+
 ### Partnership details
 
 stMATIC vaults on Manhattan Finance would allow users to mint MAI against stMATIC at a fixed interest rate. stMATIC is a liquid staking form of MATIC produced by Lido.
@@ -37,6 +40,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed 
+
 
 ---
 | Choices | Score |

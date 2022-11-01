@@ -1,9 +1,12 @@
+
+# [QIP064: Add vGHST as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x31e9dfc557e4ababb296d64f2481122f87ebc1f181889785dfd034cc9485f955)
+
 ---
-title: QIP064: Add vGHST as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x31e9dfc557e4ababb296d64f2481122f87ebc1f181889785dfd034cc9485f955
-start: 2022-02-02T10:00:00.000Z
-end: 2022-02-06T10:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-02-02T10:00:00.000Z | 2022-02-06T10:00:00.000Z |
+
+
 vGHST is a staked version of GHST that sells frens to buy more GHST. It also accrues deposit fees from Aave through amGHST. Adding it as collateral for MAI would remove the need to choose between staking GHST on Aavegotchi and depositing GHST on QiDao vaults.
 
 ### Security
@@ -39,6 +42,7 @@ A weighted average will be used to decide on the minimum CDR if the following co
 * Further discussions needed
 
 *min CDR = minimum collateral to debt ratio
+
 ---
 | Choices | Score |
 | --- | --- |

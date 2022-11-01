@@ -1,9 +1,12 @@
+
+# [QIP091: Kickstart MAI Liquidity on BNB Chain](https://snapshot.org/#/qidao.eth/proposal/0x06b8dc7aebff9beeb6608a782bb53f5dbc7c3b00b3a8e5a652af09bd9e6d2935)
+
 ---
-title: QIP091: Kickstart MAI Liquidity on BNB Chain
-url: https://snapshot.org/#/qidao.eth/proposal/0x06b8dc7aebff9beeb6608a782bb53f5dbc7c3b00b3a8e5a652af09bd9e6d2935
-start: 2022-04-24T08:43:13.000Z
-end: 2022-04-27T09:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-04-24T08:43:13.000Z | 2022-04-27T09:00:00.000Z |
+
+
 ### Proposal
 
 Allocate 3,000 QI / week to MAI+val3EPS (BUSD+USDC+BUSD-T) on Ellipsis.
@@ -35,6 +38,7 @@ The option with the most votes will be adopted.
 
 * Accept proposal
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

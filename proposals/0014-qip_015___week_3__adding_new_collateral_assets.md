@@ -1,9 +1,12 @@
+
+# [QIP 015: (Week 3) Adding new collateral assets](https://snapshot.org/#/qidao.eth/proposal/QmeH6CGQ3tmk3CMeBt4MN387pmbtDt9f5VA7naVNearspK)
+
 ---
-title: QIP 015: (Week 3) Adding new collateral assets
-url: https://snapshot.org/#/qidao.eth/proposal/QmeH6CGQ3tmk3CMeBt4MN387pmbtDt9f5VA7naVNearspK
-start: 2021-08-05T22:00:00.000Z
-end: 2021-08-08T22:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-08-05T22:00:00.000Z | 2021-08-08T22:00:00.000Z |
+
+
 ### Summary:
 
 What collateral type do you want to see added to QiDao?
@@ -23,6 +26,7 @@ Your voting power is represented in Qi Powah. If you want to increase your votin
 * Increase user options
 * Attract new audience
 * Reduce protocol risk
+
 ---
 | Choices | Score |
 | --- | --- |

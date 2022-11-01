@@ -1,9 +1,12 @@
+
+# [QIP048: Engage in Bribing for Curve Rewards](https://snapshot.org/#/qidao.eth/proposal/0x6cdf641ce1bebba06bf75a85a929852e0d0c74945c7861a2356184089e5f68f9)
+
 ---
-title: QIP048: Engage in Bribing for Curve Rewards
-url: https://snapshot.org/#/qidao.eth/proposal/0x6cdf641ce1bebba06bf75a85a929852e0d0c74945c7861a2356184089e5f68f9
-start: 2021-12-17T00:00:00.000Z
-end: 2021-12-22T12:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-12-17T00:00:00.000Z | 2021-12-22T12:00:00.000Z |
+
+
 This proposal is to engage in bribing for Curve rewards on Polygon and Fantom.
 
 ### Motivation
@@ -32,6 +35,7 @@ The option with the most votes will be adopted.
 * Further discussion needed
 
 h/t to Orthen for their help with this proposal.
+
 ---
 | Choices | Score |
 | --- | --- |

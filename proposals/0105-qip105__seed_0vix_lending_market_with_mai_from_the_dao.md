@@ -1,9 +1,12 @@
+
+# [QIP105: Seed 0VIX Lending Market with MAI from the DAO](https://snapshot.org/#/qidao.eth/proposal/0xbc554cf91438ad86ed242c816fd8cf2a06b28e77df7d7b2c01fb71dc1f8aff10)
+
 ---
-title: QIP105: Seed 0VIX Lending Market with MAI from the DAO
-url: https://snapshot.org/#/qidao.eth/proposal/0xbc554cf91438ad86ed242c816fd8cf2a06b28e77df7d7b2c01fb71dc1f8aff10
-start: 2022-05-22T22:44:41.000Z
-end: 2022-05-27T18:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-05-22T22:44:41.000Z | 2022-05-27T18:00:00.000Z |
+
+
 0VIX is a new lending platform on Polygon enhanced by veTokenomics. It only supports assets priced with Chainlink oracles (currently WETH, MATIC, WBTC, USDC, USDT, and DAI).
 
 0VIX is built by the core team behind GOGO protocol and has extensive FinTech and DeFi experience and is also backed by tier 1 funds and Polygon itself and will be announcing details about their funding round soon.
@@ -30,6 +33,7 @@ The option with the most votes will be adopted.
 
 * Seed 0VIX
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

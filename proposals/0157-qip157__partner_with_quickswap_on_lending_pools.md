@@ -1,9 +1,12 @@
+
+# [QIP157: Partner with QuickSwap on Lending Pools](https://snapshot.org/#/qidao.eth/proposal/0x287188bb88f06e0f150757344e9aec6958b66b37e89ee2be81ac3ba0a9cdbf8c)
+
 ---
-title: QIP157: Partner with QuickSwap on Lending Pools
-url: https://snapshot.org/#/qidao.eth/proposal/0x287188bb88f06e0f150757344e9aec6958b66b37e89ee2be81ac3ba0a9cdbf8c
-start: 2022-09-13T09:54:36.000Z
-end: 2022-09-16T11:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-09-13T09:54:36.000Z | 2022-09-16T11:00:00.000Z |
+
+
 Support QuickSwap's lending pools with MAI deposits from the DAO. After the initial deposit, it will be managed similar to debt ceiling increases, based on peg, asset liquidity, etc.
 
 ### Proposal details
@@ -84,6 +87,7 @@ The option with the most votes will be adopted.
 * Further discussions needed
 
 Note: these markets are not owned or maintained by QiDao.
+
 ---
 | Choices | Score |
 | --- | --- |

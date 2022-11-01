@@ -1,9 +1,12 @@
+
+# [QIP161: Add Support for xcDOT Vaults on StellaSwap](https://snapshot.org/#/qidao.eth/proposal/0x866ad8acef86fdbe5d09d0fe9bf48ddc7e3d78165d9c1f016eb40c0e69b0c7fc)
+
 ---
-title: QIP161: Add Support for xcDOT Vaults on StellaSwap
-url: https://snapshot.org/#/qidao.eth/proposal/0x866ad8acef86fdbe5d09d0fe9bf48ddc7e3d78165d9c1f016eb40c0e69b0c7fc
-start: 2022-09-29T10:50:04.000Z
-end: 2022-10-02T10:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-09-29T10:50:04.000Z | 2022-10-02T10:00:00.000Z |
+
+
 Polkadot is the 11th largest cryptocurrency by market cap, with liquidity on every major exchange. On Stellaswap (the most convenient exchange for liquidating xcDOT) there is at the time of writing this almost $2m in liquidity. Note that transferring xcDOT is fast, cheap, and occurs on the Polkadot network's shared security, for liquidators that would prefer to offramp their DOT from Moonbeam.
 
 ### Risk analysis
@@ -35,6 +38,7 @@ The option with the most votes will be adopted.
 
 * Add support for xcDOT
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

@@ -1,9 +1,12 @@
+
+# [QIP052: Whitelist Julien Bouteloup to Purchase Qi KPI Options](https://snapshot.org/#/qidao.eth/proposal/0xb0ff996d38ad6c07dfe1415a8dc1a9d816d917f14a662df7bcd092f8a7c58166)
+
 ---
-title: QIP052: Whitelist Julien Bouteloup to Purchase Qi KPI Options
-url: https://snapshot.org/#/qidao.eth/proposal/0xb0ff996d38ad6c07dfe1415a8dc1a9d816d917f14a662df7bcd092f8a7c58166
-start: 2021-12-28T16:00:00.000Z
-end: 2022-01-01T16:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-12-28T16:00:00.000Z | 2022-01-01T16:00:00.000Z |
+
+
 This proposal is to whitelist Julien Bouteloup to purchase $500,000 worth of Qi KPI Options.
 
 ### Background
@@ -34,6 +37,7 @@ Single choice voting: the option with the most votes will be adopted.
 
 * Whitelist Julien Bouteloup
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

@@ -1,9 +1,12 @@
+
+# [QIP092: Add BNB as Collateral for MAI.](https://snapshot.org/#/qidao.eth/proposal/0xcc00a44f958da1991793f382b7ccaffc0cd4fddb6995bf5cb26bdae1c8d49f44)
+
 ---
-title: QIP092: Add BNB as Collateral for MAI.
-url: https://snapshot.org/#/qidao.eth/proposal/0xcc00a44f958da1991793f382b7ccaffc0cd4fddb6995bf5cb26bdae1c8d49f44
-start: 2022-04-24T08:46:06.000Z
-end: 2022-04-27T09:01:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-04-24T08:46:06.000Z | 2022-04-27T09:01:00.000Z |
+
+
 BNB is the gas token for BNB Chain. At the time of writing, BNB has a market cap of around $70Bn.
 
 Adding BNB would also approve its derivatives.
@@ -31,6 +34,7 @@ A weighted average will be used to decide on the minimum CDR if the following co
 * Further discussions needed
 
 *min CDR = minimum collateral to debt ratio 
+
 ---
 | Choices | Score |
 | --- | --- |

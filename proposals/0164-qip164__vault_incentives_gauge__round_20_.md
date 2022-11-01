@@ -1,9 +1,12 @@
+
+# [QIP164: Vault Incentives Gauge (Round 20)](https://snapshot.org/#/qidao.eth/proposal/0x446f8a9febedd98e2d98d22f0508327547598999bfcf78cff8e5657a02897bfc)
+
 ---
-title: QIP164: Vault Incentives Gauge (Round 20)
-url: https://snapshot.org/#/qidao.eth/proposal/0x446f8a9febedd98e2d98d22f0508327547598999bfcf78cff8e5657a02897bfc
-start: 2022-10-06T05:00:00.000Z
-end: 2022-10-09T01:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-10-06T05:00:00.000Z | 2022-10-09T01:00:00.000Z |
+
+
 Vault incentives are allocated a total of 150k Qi per week. Following QIP047 & QIP162 the distribution of these rewards among vault types will be decided every two weeks by the DAO.
 
 To vote, you must hold Qi. You can distribute your voting power among as many and as few collateral types as you wish. The aggregate distribution of responses will be used to calculate the final distribution of rewards.
@@ -17,6 +20,7 @@ Each vault type can get a maximum of 15% of the total incentives. Any extra perc
 Vaults must have a minimum of 100 MAI debt to receive incentives unless the minimum borrow for a vault type is set higher.
 
 Note: Qi holders will be able to vote from any chain that has QI.
+
 ---
 | Choices | Score |
 | --- | --- |

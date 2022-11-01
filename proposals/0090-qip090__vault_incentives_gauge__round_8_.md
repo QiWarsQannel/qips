@@ -1,9 +1,12 @@
+
+# [QIP090: Vault Incentives Gauge (Round 8)](https://snapshot.org/#/qidao.eth/proposal/0xc2b93c2101120ed5b1a71832d51b8833cac8e8ea17d59e98c1eebde94015b8ca)
+
 ---
-title: QIP090: Vault Incentives Gauge (Round 8)
-url: https://snapshot.org/#/qidao.eth/proposal/0xc2b93c2101120ed5b1a71832d51b8833cac8e8ea17d59e98c1eebde94015b8ca
-start: 2022-04-21T11:44:00.000Z
-end: 2022-04-23T13:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-04-21T11:44:00.000Z | 2022-04-23T13:00:00.000Z |
+
+
 Vault incentives are allocated a total of 0.65 Qi per block (around 180k Qi per week). Following QIP047, the distribution of these rewards among vault types will be decided every two weeks by the DAO.
 
 To vote, you must hold Qi. You can distribute your voting power among as many and as few collateral types as you wish. The aggregate distribution of responses will be used to calculate the final distribution of rewards.
@@ -13,6 +16,7 @@ To vote, you must hold Qi. You can distribute your voting power among as many an
 Due to bridging fees, a minimum allocation of 15,000 QI per week (8.33% of the vote) is needed for a chain to receive rewards. If the collateral types for a chain collectively do not achieve a 15,000 QI per week allocation, then their rewards will be proportionally split among the other collateral types.
 
 Note: Qi holders will be able to vote from Fantom and Polygon.
+
 ---
 | Choices | Score |
 | --- | --- |

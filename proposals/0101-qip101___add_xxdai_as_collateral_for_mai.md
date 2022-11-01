@@ -1,9 +1,12 @@
+
+# [QIP101:  Add xxDAI as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0xa52c446526069030261027ee063aa3c451db5992e2e9982abb1083ca61708aa0)
+
 ---
-title: QIP101:  Add xxDAI as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0xa52c446526069030261027ee063aa3c451db5992e2e9982abb1083ca61708aa0
-start: 2022-05-16T15:56:34.000Z
-end: 2022-05-19T16:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-05-16T15:56:34.000Z | 2022-05-19T16:00:00.000Z |
+
+
 ### Proposal
 
 xxDai is an interest-bearing derivative of Maker’s Dai and is provided by Tetu. This proposal aims to add xxDai as a collateral option for minting MAI.
@@ -35,6 +38,7 @@ The option with the most votes will be adopted. A weighted average will be used 
 • xxDai Vault: https://app.tetu.io/vault/0xf52b3250e026e0307d7d717ae0f331baaa4f83a8
 
 • xxDai Contract: 0xf52B3250E026E0307d7d717AE0f331baAA4F83a8 
+
 ---
 | Choices | Score |
 | --- | --- |

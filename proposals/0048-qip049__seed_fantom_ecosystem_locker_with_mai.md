@@ -1,9 +1,12 @@
+
+# [QIP049: Seed Fantom Ecosystem Locker with MAI](https://snapshot.org/#/qidao.eth/proposal/0xd32dd65cc90f78feb7d8595612136371d67bb1159743f8bebbce54eec60d205f)
+
 ---
-title: QIP049: Seed Fantom Ecosystem Locker with MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0xd32dd65cc90f78feb7d8595612136371d67bb1159743f8bebbce54eec60d205f
-start: 2021-12-17T22:00:00.000Z
-end: 2021-12-20T19:30:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-12-17T22:00:00.000Z | 2021-12-20T19:30:00.000Z |
+
+
 This proposal is to decide on whether to seed MAI from the DAO into a Market.xyz lending market for Fantom ecosystem assets such as TOMB, TSHARES, xBOO, SPIRIT, and BEETS.
 
 Seeding these markets would deepen our relationship with some of the top projects in Fantom and with Market.xyz. This will introduce MAI to new communities and become a better known stable in the ecosystem.
@@ -34,6 +37,7 @@ The option with the most votes will be adopted.
 * Further discussions needed 
 
 note: the market has not yet been launched. 
+
 
 ---
 | Choices | Score |

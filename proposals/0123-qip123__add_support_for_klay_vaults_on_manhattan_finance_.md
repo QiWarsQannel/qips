@@ -1,9 +1,12 @@
+
+# [QIP123: Add Support for KLAY Vaults on Manhattan Finance.](https://snapshot.org/#/qidao.eth/proposal/0x431b84c874e7bc647e550df0452119e452d50ab6bcfcafd0d5ef86ff0da74be6)
+
 ---
-title: QIP123: Add Support for KLAY Vaults on Manhattan Finance.
-url: https://snapshot.org/#/qidao.eth/proposal/0x431b84c874e7bc647e550df0452119e452d50ab6bcfcafd0d5ef86ff0da74be6
-start: 2022-07-15T11:37:17.000Z
-end: 2022-07-18T10:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-07-15T11:37:17.000Z | 2022-07-18T10:00:00.000Z |
+
+
 ### Proposal details
 
 KLAY vaults on Manhattan Finance will allow users to mint MAI on Klaytn at a fixed interest rate. KLAY is the gas token for Klaytn.
@@ -35,6 +38,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

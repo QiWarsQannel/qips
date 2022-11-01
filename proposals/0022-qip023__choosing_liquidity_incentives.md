@@ -1,9 +1,12 @@
+
+# [QIP023: Choosing liquidity incentives](https://snapshot.org/#/qidao.eth/proposal/QmTW8cib3q6QCoxAoCbiLDi91RHNAWpwSaF2c5nrQ8iK9y)
+
 ---
-title: QIP023: Choosing liquidity incentives
-url: https://snapshot.org/#/qidao.eth/proposal/QmTW8cib3q6QCoxAoCbiLDi91RHNAWpwSaF2c5nrQ8iK9y
-start: 2021-08-30T17:00:00.000Z
-end: 2021-09-01T17:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-08-30T17:00:00.000Z | 2021-09-01T17:00:00.000Z |
+
+
 **Please read the entire proposal before voting, as there are several factors to consider.**
 
 ### Summary:
@@ -38,6 +41,7 @@ The winning vote must receive more than 60% of the vote. If no option receives a
 * Reduce incentives by 50%
 * Reduce incentives by 75%
 * Do not reduce incentives
+
 ---
 | Choices | Score |
 | --- | --- |

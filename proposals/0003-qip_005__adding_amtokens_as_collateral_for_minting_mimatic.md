@@ -1,9 +1,12 @@
+
+# [QIP 005: Adding amTokens as collateral for minting miMatic](https://snapshot.org/#/qidao.eth/proposal/QmPQ6XGCtitvAz2UAf7v4nkbTMmdanCrdMw3ffR7Tq1QD4)
+
 ---
-title: QIP 005: Adding amTokens as collateral for minting miMatic
-url: https://snapshot.org/#/qidao.eth/proposal/QmPQ6XGCtitvAz2UAf7v4nkbTMmdanCrdMw3ffR7Tq1QD4
-start: 2021-06-14T14:00:00.000Z
-end: 2021-06-18T17:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-06-14T14:00:00.000Z | 2021-06-18T17:00:00.000Z |
+
+
 ## Summary
 
 This proposal is for the addition of amTokens to be accepted as collateral for miMatic stablecoins.
@@ -18,6 +21,7 @@ The Protocol would offer an option for users to automatically compound their amT
 * Tap into the around $21 billion market on Aave, that could be simultaneously used in the QiDao Protocol
 
 Based on responses to this QIP, Lao Zi will adjust the minimum collateral to debt ratio to reflect the community’s feedback.
+
 
 ---
 | Choices | Score |

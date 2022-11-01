@@ -1,9 +1,12 @@
+
+# [QIP035: Add QI Rewards to Beethoven X on Fantom](https://snapshot.org/#/qidao.eth/proposal/0xc055a12ce7015e4f482788141d9bdd6bf9f70102c0c290300b8a64f2defa2fbe)
+
 ---
-title: QIP035: Add QI Rewards to Beethoven X on Fantom
-url: https://snapshot.org/#/qidao.eth/proposal/0xc055a12ce7015e4f482788141d9bdd6bf9f70102c0c290300b8a64f2defa2fbe
-start: 2021-10-29T07:00:00.000Z
-end: 2021-11-01T12:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-10-29T07:00:00.000Z | 2021-11-01T12:00:00.000Z |
+
+
 This proposal is to begin incentives for MAI and QI liquidity on Beethoven X on Fantom.
 
 QiDao deployed MAI vaults on Fantom around 2 weeks ago. Beethoven X has provided liquidity mining rewards for a MAI-USDC pool during this time, accumulating 3,627,185 MAI. Beethoven gives around $23,000 per week in rewards to this pool. Similar to the partnership we have with Balancer on Polygon, we look to make strong ties with Beethoven X as we expand on Fantom.
@@ -27,6 +30,7 @@ The option with the most votes will be adopted
 
 * Incentivize the pool
 * Do not incentivize the pool 
+
 ---
 | Choices | Score |
 | --- | --- |

@@ -1,9 +1,12 @@
+
+# [QIP132: Remove Certain Owner Privileges and Implement Timelock](https://snapshot.org/#/qidao.eth/proposal/0xf74a6f506eb8c5cc297cdc6cace12beffda7084a928439cae6e34d7e76e4056f)
+
 ---
-title: QIP132: Remove Certain Owner Privileges and Implement Timelock
-url: https://snapshot.org/#/qidao.eth/proposal/0xf74a6f506eb8c5cc297cdc6cace12beffda7084a928439cae6e34d7e76e4056f
-start: 2022-08-01T16:48:38.000Z
-end: 2022-08-06T17:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-08-01T16:48:38.000Z | 2022-08-06T17:00:00.000Z |
+
+
 ### Context
 
 The current vaults at QiDao rest on a 2/4 multisig. As there is currently $75.51m of collateral locked in the  platform (as per DeFi Llama), we believe this is no longer acceptable and that steps should be taken to protect users in the unlikely event of a multisig compromise.
@@ -29,6 +32,7 @@ The option with the most votes will be adopted.
 
 * Accept proposal
 * Reject proposal
+
 ---
 | Choices | Score |
 | --- | --- |

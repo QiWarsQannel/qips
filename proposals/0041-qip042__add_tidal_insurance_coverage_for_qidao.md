@@ -1,9 +1,12 @@
+
+# [QIP042: Add Tidal Insurance Coverage for QiDao](https://snapshot.org/#/qidao.eth/proposal/0x1730ab852dcd4b0a59defd04f9a47eee5a28f8d476a8cce2a2250a59349e4695)
+
 ---
-title: QIP042: Add Tidal Insurance Coverage for QiDao
-url: https://snapshot.org/#/qidao.eth/proposal/0x1730ab852dcd4b0a59defd04f9a47eee5a28f8d476a8cce2a2250a59349e4695
-start: 2021-11-30T11:00:00.000Z
-end: 2021-12-05T11:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-11-30T11:00:00.000Z | 2021-12-05T11:00:00.000Z |
+
+
 Adding safety measures has been a top priority for QiDao. We are excited to share a proposal from Tidal Finance to add insurance coverage for the project as well as our end users.
 
 Tidal is a Polygon-native insurance protocol that helps other projects protect against smart contract exploitations. Tidal will help us to bootstrap USDC as insurance collateral on its platform. USDC depositors will earn the premium fees from our payment, as well as TIDAL tokens.
@@ -42,6 +45,7 @@ The option with the most votes will be adopted.
 
 * Add Tidal insurance coverage
 * Further discussion needed
+
 ---
 | Choices | Score |
 | --- | --- |

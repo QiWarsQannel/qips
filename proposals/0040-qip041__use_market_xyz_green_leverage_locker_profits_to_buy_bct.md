@@ -1,9 +1,12 @@
+
+# [QIP041: Use Market.xyz Green Leverage Locker Profits to Buy BCT](https://snapshot.org/#/qidao.eth/proposal/0x078e3c71b58db3f19b7ad5fa2d19b1e3ebc43dabfb4a9271a952c3f3028fa919)
+
 ---
-title: QIP041: Use Market.xyz Green Leverage Locker Profits to Buy BCT
-url: https://snapshot.org/#/qidao.eth/proposal/0x078e3c71b58db3f19b7ad5fa2d19b1e3ebc43dabfb4a9271a952c3f3028fa919
-start: 2021-11-28T19:00:00.000Z
-end: 2021-12-03T19:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-11-28T19:00:00.000Z | 2021-12-03T19:00:00.000Z |
+
+
 This proposal is to decide if we should use 100% of our profits from the Green Leverage Locker to purchase BCT.
 
 Link to market: https://polygon.market.xyz/pool/5
@@ -39,6 +42,7 @@ The option with the most votes will be adopted.
 * Do not buy BCT
 
 GLLP = Green Leverage Locker profit
+
 
 ---
 | Choices | Score |

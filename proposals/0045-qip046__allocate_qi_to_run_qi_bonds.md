@@ -1,9 +1,12 @@
+
+# [QIP046: Allocate Qi to Run Qi Bonds](https://snapshot.org/#/qidao.eth/proposal/0x62f86016ada3a58dd49d30bc4cbf8d9f98906069db87064fd2c9de09fbc6f920)
+
 ---
-title: QIP046: Allocate Qi to Run Qi Bonds
-url: https://snapshot.org/#/qidao.eth/proposal/0x62f86016ada3a58dd49d30bc4cbf8d9f98906069db87064fd2c9de09fbc6f920
-start: 2021-12-14T16:59:00.000Z
-end: 2021-12-17T05:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-12-14T16:59:00.000Z | 2021-12-17T05:00:00.000Z |
+
+
 This proposal is to approve an amount of Qi to run Qi Bonds for 1 month.
 
 Qi Bonds allow QiDao to buy LP tokens from users with Qi. This model has been used by several other projects in DeFi as an alternative to providing liquidity mining incentives. 
@@ -26,6 +29,7 @@ The option with the most votes will be adopted.
 
 * Run Qi Bonds
 * Further discussion needed
+
 ---
 | Choices | Score |
 | --- | --- |

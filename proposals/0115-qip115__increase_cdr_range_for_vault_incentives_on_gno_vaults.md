@@ -1,9 +1,12 @@
+
+# [QIP115: Increase CDR Range for Vault Incentives on GNO Vaults](https://snapshot.org/#/qidao.eth/proposal/0xf0d61412dc4cbe34cfa0e7b2d4e2437da70f6fccee9be1dd4ad967cfe1d2a309)
+
 ---
-title: QIP115: Increase CDR Range for Vault Incentives on GNO Vaults
-url: https://snapshot.org/#/qidao.eth/proposal/0xf0d61412dc4cbe34cfa0e7b2d4e2437da70f6fccee9be1dd4ad967cfe1d2a309
-start: 2022-06-30T04:24:20.000Z
-end: 2022-07-03T17:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-06-30T04:24:20.000Z | 2022-07-03T17:00:00.000Z |
+
+
 Increase the range for vault incentives on GNO vaults from 155%-400% to 155%-500% collateral to debt ratio.
 
 Currently, the Gnosis Chain team uses GNO vaults to borrow MAI. The resulting MAI has then been used to provide liquidity on Curve.
@@ -24,6 +27,7 @@ The option with the most votes will be adopted.
 
 * Accept proposal
 * Reject proposal
+
 ---
 | Choices | Score |
 | --- | --- |

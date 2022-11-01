@@ -1,9 +1,12 @@
+
+# [QIP134: Switch Bribes on Balancer Arbitrum to Masterchef on Curve Arbitrum](https://snapshot.org/#/qidao.eth/proposal/0x42cd50ea4c7fb9614cb64524ff25cee6fecde9024f9db7e8f75f6fa990cde74b)
+
 ---
-title: QIP134: Switch Bribes on Balancer Arbitrum to Masterchef on Curve Arbitrum
-url: https://snapshot.org/#/qidao.eth/proposal/0x42cd50ea4c7fb9614cb64524ff25cee6fecde9024f9db7e8f75f6fa990cde74b
-start: 2022-08-05T02:32:01.000Z
-end: 2022-08-07T17:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-08-05T02:32:01.000Z | 2022-08-07T17:00:00.000Z |
+
+
 ### Context
 
 We currently bribe veBAL holders with 2,000 QI / week for a pool on Arbitrum. That pool is currently $25,000 in TVL. At a pool APR of 4.5%, we have a negative ROI on this bribe.
@@ -22,6 +25,7 @@ The option with the most votes will be adopted.
 
 Accept proposal
 Reject proposal 
+
 ---
 | Choices | Score |
 | --- | --- |

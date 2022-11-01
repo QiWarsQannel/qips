@@ -1,9 +1,12 @@
+
+# [QIP 009: Partner with mStable to provide incentives on MAI feeder pool](https://snapshot.org/#/qidao.eth/proposal/QmV89yLhaSAdSDgYDcAG6oHwzqvVFso8hpVxoB7imsPM6E)
+
 ---
-title: QIP 009: Partner with mStable to provide incentives on MAI feeder pool
-url: https://snapshot.org/#/qidao.eth/proposal/QmV89yLhaSAdSDgYDcAG6oHwzqvVFso8hpVxoB7imsPM6E
-start: 2021-07-10T01:30:00.000Z
-end: 2021-07-15T01:30:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-07-10T01:30:00.000Z | 2021-07-15T01:30:00.000Z |
+
+
 ### Summary:
 
 This proposal is to partner with mStable to incentivize MAI as a member of their stablecoin basket (as part of their feeder pool). Adding MAI to their feeder pool will bolster MAI’s peg, as it would provide for a stable exchange rate for MAI at a tighter spread than the USDC Swap.
@@ -28,6 +31,7 @@ ___
 For: Partner with mStable to provide incentives on MAI feeder pool
 
 Against: Do not partner with mStable to provide incentives on MAI feeder pool
+
 
 ---
 | Choices | Score |

@@ -1,9 +1,12 @@
+
+# [QIP122: Add Support for KAVA Vaults on Manhattan Finance](https://snapshot.org/#/qidao.eth/proposal/0x10649cb935ca2f60b0a818a66318ec6bfadb8aa5a7b40b283642f457fd7c522f)
+
 ---
-title: QIP122: Add Support for KAVA Vaults on Manhattan Finance
-url: https://snapshot.org/#/qidao.eth/proposal/0x10649cb935ca2f60b0a818a66318ec6bfadb8aa5a7b40b283642f457fd7c522f
-start: 2022-07-14T23:05:28.000Z
-end: 2022-07-18T10:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-07-14T23:05:28.000Z | 2022-07-18T10:00:00.000Z |
+
+
 ### Proposal details
 
 KAVA vaults on Manhattan Finance will allow users to mint MAI on Kava Network at a fixed interest rate. KAVA is the gas token for Kava Network.
@@ -35,6 +38,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

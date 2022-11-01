@@ -1,9 +1,12 @@
+
+# [QIP156: Add Stake DAO stETH Strategy as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0xcaa45205aae09d0ec987eecfb53c61b34cefb2094cc9d3f7a845789af466b22d)
+
 ---
-title: QIP156: Add Stake DAO stETH Strategy as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0xcaa45205aae09d0ec987eecfb53c61b34cefb2094cc9d3f7a845789af466b22d
-start: 2022-09-12T11:22:59.000Z
-end: 2022-09-15T11:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-09-12T11:22:59.000Z | 2022-09-15T11:00:00.000Z |
+
+
 Stake DAO’s stETH strategy invests ETH stablecoins (ETH, stETH) into the Curve Liquidity Pool (steth). The strategy earns trading fees based on the pool trading volume, and it earns additional CRV token rewards from Curve. The strategy rewards are periodically compounded to maximize returns.
 
 At the time of writing, this strategy is meaning 6.07% APY and has 873 steCRV in TVL.
@@ -33,6 +36,7 @@ The option with the most votes will be adopted.
 Risk grading: C+
 
 https://riskmanagement.qidao.community/en/tokens/curve-steth-ethereum 
+
 ---
 | Choices | Score |
 | --- | --- |

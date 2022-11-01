@@ -1,9 +1,12 @@
+
+# [QIP150: Add BTC Vaults on Ethereum at 120% min CDR](https://snapshot.org/#/qidao.eth/proposal/0x5eb5ae1619ae9b028e2334d5dc35ed34d8d8098cc691a840c3cb085656cd7309)
+
 ---
-title: QIP150: Add BTC Vaults on Ethereum at 120% min CDR
-url: https://snapshot.org/#/qidao.eth/proposal/0x5eb5ae1619ae9b028e2334d5dc35ed34d8d8098cc691a840c3cb085656cd7309
-start: 2022-09-03T06:21:41.000Z
-end: 2022-09-06T05:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-09-03T06:21:41.000Z | 2022-09-06T05:00:00.000Z |
+
+
 Ethereum has the most robust liquidation ecosystem in DeFi, with fast and highly competitive liquidations. This lowers the possibility of bad debt.
 
 Given this context, QiDao should lower the minimum collateral to debt ratio (min CDR) for BTC vaults from 130% to 120%.
@@ -21,6 +24,7 @@ The option with the most votes will be adopted.
 
 * Accept proposal
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

@@ -1,9 +1,12 @@
+
+# [QIP032: add camDAI as collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/QmSpD7NAQyTNaMnAb41QXyLpXaPVq5fCPzBqmnqeVTWdHi)
+
 ---
-title: QIP032: add camDAI as collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/QmSpD7NAQyTNaMnAb41QXyLpXaPVq5fCPzBqmnqeVTWdHi
-start: 2021-10-13T22:22:00.000Z
-end: 2021-10-15T18:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-10-13T22:22:00.000Z | 2021-10-15T18:00:00.000Z |
+
+
 This proposal is to add camDAI (compounding Aave market DAI) as collateral for borrowing MAI through vaults.
 
 By adding more assets, we attract a wider range of users who seek to gain stable value from their tokens at 0% interest. Vaults allow the users to gain the benefit of a stablecoin without spending the underlying asset.
@@ -33,6 +36,7 @@ The option with the most votes will be adopted.
 * Do not add camDAI
 
 CDR = Collateral to Debt Ratio
+
 ---
 | Choices | Score |
 | --- | --- |

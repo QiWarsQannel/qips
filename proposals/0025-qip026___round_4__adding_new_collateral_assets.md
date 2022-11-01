@@ -1,9 +1,12 @@
+
+# [QIP026: (Round 4) Adding new collateral assets](https://snapshot.org/#/qidao.eth/proposal/QmQ3DdKNByhNncR1jaWRnR3BunGowzdpNrSUfCHYJ8RMZn)
+
 ---
-title: QIP026: (Round 4) Adding new collateral assets
-url: https://snapshot.org/#/qidao.eth/proposal/QmQ3DdKNByhNncR1jaWRnR3BunGowzdpNrSUfCHYJ8RMZn
-start: 2021-09-20T18:00:00.000Z
-end: 2021-09-23T18:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-09-20T18:00:00.000Z | 2021-09-23T18:00:00.000Z |
+
+
 ### Summary:
 
 This proposal is to add new collateral assets for borrowing/minting MAI through vaults. By adding more assets, we attract a wider range of users who seek to gain stable value from their tokens at 0% interest. Vaults allow the users to gain the benefit of a stablecoin without spending the underlying asset.
@@ -72,6 +75,7 @@ This will be an approval vote, meaning that users will be able to vote for any n
 ### Acknowledgements
 
 H/T to Davidpgil and Backfire Capital for their input in drafting this proposal.
+
 ---
 | Choices | Score |
 | --- | --- |

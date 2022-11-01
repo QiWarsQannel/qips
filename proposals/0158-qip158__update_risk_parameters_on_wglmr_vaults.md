@@ -1,9 +1,12 @@
+
+# [QIP158: Update Risk Parameters on WGLMR Vaults](https://snapshot.org/#/qidao.eth/proposal/0xd334509ecd58e402615760b4d8056757823683e884230be670e54d525af1b11a)
+
 ---
-title: QIP158: Update Risk Parameters on WGLMR Vaults
-url: https://snapshot.org/#/qidao.eth/proposal/0xd334509ecd58e402615760b4d8056757823683e884230be670e54d525af1b11a
-start: 2022-09-13T09:59:13.000Z
-end: 2022-09-16T11:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-09-13T09:59:13.000Z | 2022-09-16T11:00:00.000Z |
+
+
 ### Proposal
 
 Decrease minimum collateral to debt ratio (min. CDR) and reduce interest on Moonbeam WGLMR Vaults to make them competitive and reflect current risk levels
@@ -31,6 +34,7 @@ The option with the most votes will be adopted.
 
 * Accept proposal
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

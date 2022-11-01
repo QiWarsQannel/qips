@@ -1,9 +1,12 @@
+
+# [QIP044: Add MOVR as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x1cb2e44b55b34b9ab204468510acad30c48fea3ecfce7f065429d57c6b054e66)
+
 ---
-title: QIP044: Add MOVR as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x1cb2e44b55b34b9ab204468510acad30c48fea3ecfce7f065429d57c6b054e66
-start: 2021-12-03T11:00:00.000Z
-end: 2021-12-06T07:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-12-03T11:00:00.000Z | 2021-12-06T07:00:00.000Z |
+
+
 This proposal is to add MOVR as collateral for borrowing MAI.
 
 By adding more assets, we attract a wider range of users who seek to gain stable value from their tokens at 0% interest. Vaults allow the users to gain the benefit of a stablecoin without spending the underlying asset.
@@ -31,6 +34,7 @@ The option with the most votes will be adopted. If votes to add MOVR outweigh vo
 * Further discussions needed
 
 *min CDR = minimum collateral to debt ratio
+
 ---
 | Choices | Score |
 | --- | --- |

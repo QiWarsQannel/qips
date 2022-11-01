@@ -1,9 +1,12 @@
+
+# [QIP 017: Increasing Capital Efficiency](https://snapshot.org/#/qidao.eth/proposal/QmcXKgpEFcptZgr8D8MqYUKbpKf5MrJdSqcYaXCQFWPvPC)
+
 ---
-title: QIP 017: Increasing Capital Efficiency
-url: https://snapshot.org/#/qidao.eth/proposal/QmcXKgpEFcptZgr8D8MqYUKbpKf5MrJdSqcYaXCQFWPvPC
-start: 2021-08-11T02:00:00.000Z
-end: 2021-08-15T02:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-08-11T02:00:00.000Z | 2021-08-15T02:00:00.000Z |
+
+
 ### Summary
 
 Through discussions on Discord and Telegram, we’ve seen desires to give users a higher Loan-to-Value (LTV) ratio. Increasing the LTV ratio for vaults would allow users to increase the amount of MAI they could borrow against their collateral, improving their capital efficiency. QiDao could achieve this by lowering liquidation ratios.
@@ -63,6 +66,7 @@ Lower minimum liquidation ratio to 120% for non-stablecoin collaterals
 
 Option #2:
 Maintain minimum 150% liquidation ratio for non-stablecoin collaterals (no change)
+
 
 ---
 | Choices | Score |

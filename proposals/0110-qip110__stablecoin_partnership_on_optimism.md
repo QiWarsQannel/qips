@@ -1,9 +1,12 @@
+
+# [QIP110: Stablecoin Partnership on Optimism](https://snapshot.org/#/qidao.eth/proposal/0x716a2578374ccf70420da602bd0cc1b774445689c4dd978d35fe5553c395f10e)
+
 ---
-title: QIP110: Stablecoin Partnership on Optimism
-url: https://snapshot.org/#/qidao.eth/proposal/0x716a2578374ccf70420da602bd0cc1b774445689c4dd978d35fe5553c395f10e
-start: 2022-06-14T03:08:19.000Z
-end: 2022-06-17T01:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-06-14T03:08:19.000Z | 2022-06-17T01:00:00.000Z |
+
+
 This proposal is to approve a stablecoin partnership between QiDao, Frax, Balancer, Beethoven, and Optimism.
 
 ### Background
@@ -24,6 +27,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Reject proposal
+
 ---
 | Choices | Score |
 | --- | --- |

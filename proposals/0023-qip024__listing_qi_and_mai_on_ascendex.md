@@ -1,9 +1,12 @@
+
+# [QIP024: Listing QI and MAI on AscendEX](https://snapshot.org/#/qidao.eth/proposal/QmbJzY2ecc5qEeYMyHm7gBT3aLxauEQVmtrvK2jay9Rgf8)
+
 ---
-title: QIP024: Listing QI and MAI on AscendEX
-url: https://snapshot.org/#/qidao.eth/proposal/QmbJzY2ecc5qEeYMyHm7gBT3aLxauEQVmtrvK2jay9Rgf8
-start: 2021-09-06T22:59:00.000Z
-end: 2021-09-10T22:59:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-09-06T22:59:00.000Z | 2021-09-10T22:59:00.000Z |
+
+
 AscendEX has prepared the following proposal for the QiDao community to list both QI and MAI on their centralized exchange. If approved, this would be the first listing for QiDao’s tokens on a centralized exchange.
 
 ### Background on AscendEX:
@@ -52,6 +55,7 @@ The winning vote must receive more than 50% of the votes to pass.
 
 Yes: Engage with AscendEX to list QI and MAI
 No: Do not engage with AscendEX to list QI or MAI
+
 
 ---
 | Choices | Score |

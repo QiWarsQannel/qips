@@ -1,9 +1,12 @@
+
+# [QIP 013: Using the Deposit fee revenue to farm rewards](https://snapshot.org/#/qidao.eth/proposal/QmdSQxLdogcGHK6MP9jVFPGrct4oHuHomBhRYWWNyvsKgN)
+
 ---
-title: QIP 013: Using the Deposit fee revenue to farm rewards
-url: https://snapshot.org/#/qidao.eth/proposal/QmdSQxLdogcGHK6MP9jVFPGrct4oHuHomBhRYWWNyvsKgN
-start: 2021-07-26T16:00:00.000Z
-end: 2021-07-29T16:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-07-26T16:00:00.000Z | 2021-07-29T16:00:00.000Z |
+
+
 ## Summary:
 **How can we use the idle LP Tokens earned as protocol revenue to better incentivize Qi stakers, reduce Qi emissions, and improve the health of the protocol.**
 
@@ -44,6 +47,7 @@ Total Rewards: 8,043 Qi/week
 * Option 2: Farm using LP token revenue (All MAI-Qi)
 * Option 3: Farm using LP token revenue (All MAI-USDC)
 * Option 4: Do not Farm using LP token revenue (Reject)
+
 ---
 | Choices | Score |
 | --- | --- |

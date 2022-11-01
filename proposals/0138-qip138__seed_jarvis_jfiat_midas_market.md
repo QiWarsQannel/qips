@@ -1,9 +1,12 @@
+
+# [QIP138: Seed Jarvis Jfiat Midas Market](https://snapshot.org/#/qidao.eth/proposal/0x99510cdf153f88b04cdf6f461700d7122e4a3aac5c5f48aea7c4f78d5615858c)
+
 ---
-title: QIP138: Seed Jarvis Jfiat Midas Market
-url: https://snapshot.org/#/qidao.eth/proposal/0x99510cdf153f88b04cdf6f461700d7122e4a3aac5c5f48aea7c4f78d5615858c
-start: 2022-08-18T04:13:13.000Z
-end: 2022-08-22T16:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-08-18T04:13:13.000Z | 2022-08-22T16:00:00.000Z |
+
+
 Proposal
 
 Deposit 100,000 MAI into each of the Jarvis jFIAT Midas Capital lending pools on BNB Chain and Polygon so users can borrow MAI against their collateral and earn yield on MAI deposits. After the initial deposit, it will be managed similar to debt ceiling increases, based on peg, asset liquidity, etc.
@@ -33,6 +36,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

@@ -1,9 +1,12 @@
+
+# [QIP036: Approving Standard for Strategic Partnerships](https://snapshot.org/#/qidao.eth/proposal/0x9ad44d5006753a13cc28e79b5ac34ae4662cdbf133c891fc41e9dea18c257d3d)
+
 ---
-title: QIP036: Approving Standard for Strategic Partnerships
-url: https://snapshot.org/#/qidao.eth/proposal/0x9ad44d5006753a13cc28e79b5ac34ae4662cdbf133c891fc41e9dea18c257d3d
-start: 2021-10-31T07:00:00.000Z
-end: 2021-11-05T07:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-10-31T07:00:00.000Z | 2021-11-05T07:00:00.000Z |
+
+
 This proposal is to decide on whether to structure strategic partnerships with KPI options.
 
 Engaging in strategic partnerships allows the protocol to tap external resources through aligning incentives. If this standard is approved, prospective partners will need to approach the DAO with proposals to be whitelisted.
@@ -34,6 +37,7 @@ The option with the most votes will be adopted.
 
 * Approve standard
 * Do not approve standard 
+
 ---
 | Choices | Score |
 | --- | --- |

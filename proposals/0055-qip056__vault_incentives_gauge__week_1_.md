@@ -1,9 +1,12 @@
+
+# [QIP056: Vault Incentives Gauge (Week 1)](https://snapshot.org/#/qidao.eth/proposal/0xea84fb3f7df57e8d94e1caaee20541f5d0b3a59072c2c139dae69c55e5fc7781)
+
 ---
-title: QIP056: Vault Incentives Gauge (Week 1)
-url: https://snapshot.org/#/qidao.eth/proposal/0xea84fb3f7df57e8d94e1caaee20541f5d0b3a59072c2c139dae69c55e5fc7781
-start: 2022-01-06T04:30:00.000Z
-end: 2022-01-09T14:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-01-06T04:30:00.000Z | 2022-01-09T14:00:00.000Z |
+
+
 Note: first round of vault incentives gauge reposted due to issues with Snapshot on the last vote.
 
 Vault incentives are allocated a total of 0.65 Qi per block (around 180k Qi per week). Following QIP047, the distribution of these rewards among vault types will be decided every two weeks by the DAO. Gauge votes will take place 5-7 days before the rewards change to allow users to move to the most profitable vaults.
@@ -15,6 +18,7 @@ Note: Qi holders can now vote with Qi on both Polygon and Fantom.
 ### Quorum Standards:
 
 Due to bridging fees, a minimum allocation of 15,000 QI per week (8.33% of the vote) is needed for a chain to receive rewards. If the collateral types for a chain collectively do not achieve a 15,000 QI per week allocation, then their rewards will be proportionally split among the other collateral types.
+
 ---
 | Choices | Score |
 | --- | --- |

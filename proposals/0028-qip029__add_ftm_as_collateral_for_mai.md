@@ -1,9 +1,12 @@
+
+# [QIP029: Add FTM as collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/QmZunwy5VQpHPQLZmDQmBppX83PbG7bfLcFkzjpwDiZu2r)
+
 ---
-title: QIP029: Add FTM as collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/QmZunwy5VQpHPQLZmDQmBppX83PbG7bfLcFkzjpwDiZu2r
-start: 2021-10-12T22:59:00.000Z
-end: 2021-10-15T11:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-10-12T22:59:00.000Z | 2021-10-15T11:00:00.000Z |
+
+
 This proposal is to add FTM as collateral for borrowing MAI.
 
 By adding more assets, we attract a wider range of users who seek to gain stable value from their tokens at 0% interest. Vaults allow the users to gain the benefit of a stablecoin without spending the underlying asset.
@@ -29,6 +32,7 @@ The option with the most votes will be adopted.
 
 * Add FTM
 * Do not add FTM
+
 ---
 | Choices | Score |
 | --- | --- |

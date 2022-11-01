@@ -1,9 +1,12 @@
+
+# [QIP020: Choosing AMMs](https://snapshot.org/#/qidao.eth/proposal/QmcGMjwdQzmEhwM9t9vnH7FfPT3aJdoVdvtE6sJN5rQsVs)
+
 ---
-title: QIP020: Choosing AMMs
-url: https://snapshot.org/#/qidao.eth/proposal/QmcGMjwdQzmEhwM9t9vnH7FfPT3aJdoVdvtE6sJN5rQsVs
-start: 2021-08-24T03:59:00.000Z
-end: 2021-08-28T03:59:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-08-24T03:59:00.000Z | 2021-08-28T03:59:00.000Z |
+
+
 **Please read the entire proposal before voting, as there are several factors to consider.**
 
 ### Summary:
@@ -82,6 +85,7 @@ If one AMM receives more than ⅔ of the vote, it will get all Qi LP rewards. If
 * DFYN
 * SushiSwap
 * No AMM / remove incentives
+
 ---
 | Choices | Score |
 | --- | --- |

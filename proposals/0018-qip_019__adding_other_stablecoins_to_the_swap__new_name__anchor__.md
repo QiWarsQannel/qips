@@ -1,9 +1,12 @@
+
+# [QIP 019: Adding other stablecoins to the Swap (New name: Anchor) ](https://snapshot.org/#/qidao.eth/proposal/QmWukFH6kD6ApVk9DN5nnbiGyR4MdUjCwSq4AjTpSrtFeA)
+
 ---
-title: QIP 019: Adding other stablecoins to the Swap (New name: Anchor) 
-url: https://snapshot.org/#/qidao.eth/proposal/QmWukFH6kD6ApVk9DN5nnbiGyR4MdUjCwSq4AjTpSrtFeA
-start: 2021-08-12T03:00:00.000Z
-end: 2021-08-16T03:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-08-12T03:00:00.000Z | 2021-08-16T03:00:00.000Z |
+
+
 ### Summary:
 This proposal is to add additional stablecoins to Anchor to mint MAI. The proposed stablecoins to add are USDT and DAI. Currently, Anchor only allows users to mint MAI with USDC. Minting through Anchor currently incurs a 1% fee.
 
@@ -42,6 +45,7 @@ DAI liquidity:
 * Option 2: Add DAI to Anchor
 * Option 3: Add both DAI and USDT to Anchor
 * Option 4: Do not add USDT or DAI to Anchor
+
 
 ---
 | Choices | Score |

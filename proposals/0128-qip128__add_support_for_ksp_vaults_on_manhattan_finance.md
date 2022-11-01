@@ -1,9 +1,12 @@
+
+# [QIP128: Add Support for KSP Vaults on Manhattan Finance](https://snapshot.org/#/qidao.eth/proposal/0xc12d6e01c748ab5866c89886557975541df95eac3050bc6df5f476c6ef79aaee)
+
 ---
-title: QIP128: Add Support for KSP Vaults on Manhattan Finance
-url: https://snapshot.org/#/qidao.eth/proposal/0xc12d6e01c748ab5866c89886557975541df95eac3050bc6df5f476c6ef79aaee
-start: 2022-07-20T10:44:46.000Z
-end: 2022-07-23T10:44:46.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-07-20T10:44:46.000Z | 2022-07-23T10:44:46.000Z |
+
+
 ### Proposal details
 
 KSP vaults on Manhattan Finance will allow users to mint MAI on Klaytn at a fixed interest rate. KSP is the governance token of Klayswap, the leading DEX on Klaytn.
@@ -36,6 +39,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

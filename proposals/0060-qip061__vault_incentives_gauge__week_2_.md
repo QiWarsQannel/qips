@@ -1,9 +1,12 @@
+
+# [QIP061: Vault Incentives Gauge (Week 2)](https://snapshot.org/#/qidao.eth/proposal/0x2970eee6aa5406d4bac0c0a1a3d8b18f34c736160606dd62e09234ebffbda5ad)
+
 ---
-title: QIP061: Vault Incentives Gauge (Week 2)
-url: https://snapshot.org/#/qidao.eth/proposal/0x2970eee6aa5406d4bac0c0a1a3d8b18f34c736160606dd62e09234ebffbda5ad
-start: 2022-01-25T11:00:00.000Z
-end: 2022-01-29T01:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-01-25T11:00:00.000Z | 2022-01-29T01:00:00.000Z |
+
+
 Vault incentives are allocated a total of 0.65 Qi per block (around 180k Qi per week). Following QIP047, the distribution of these rewards among vault types will be decided every two weeks by the DAO.
 
 To vote, you must hold Qi. You can distribute your voting power among as many and as few collateral types as you wish. The aggregate distribution of responses will be used to calculate the final distribution of rewards.
@@ -46,6 +49,7 @@ ETH (Moonriver)
 MOVR (Moonriver)
 ETH (Harmony)
 ONE (Harmony)
+
 ---
 | Choices | Score |
 | --- | --- |

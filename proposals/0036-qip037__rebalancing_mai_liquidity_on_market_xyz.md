@@ -1,9 +1,12 @@
+
+# [QIP037: Rebalancing MAI liquidity on Market.xyz](https://snapshot.org/#/qidao.eth/proposal/0x08d9b5f409be5cbc614bdb3a28dcd7584829f57e1e641103f80bf9d05f5387a3)
+
 ---
-title: QIP037: Rebalancing MAI liquidity on Market.xyz
-url: https://snapshot.org/#/qidao.eth/proposal/0x08d9b5f409be5cbc614bdb3a28dcd7584829f57e1e641103f80bf9d05f5387a3
-start: 2021-11-02T22:00:00.000Z
-end: 2021-11-05T22:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-11-02T22:00:00.000Z | 2021-11-05T22:00:00.000Z |
+
+
 ### Summary:
 
 This proposal is to decide on whether to move some of the MAI liquidity previously injected into the “Stablecoin Pool” to the “Mai x Beefy Leverage Locker”.
@@ -34,6 +37,7 @@ The option with the most votes will be chosen.
 
 * Move liquidity
 * Do not move liquidity
+
 ---
 | Choices | Score |
 | --- | --- |

@@ -1,9 +1,12 @@
+
+# [QIP027: Partnering with Market.xyz on MAI lending market](https://snapshot.org/#/qidao.eth/proposal/QmSbkF4HGzaZ3zwNRiMQqsb12sqh1dk5FfBF23P1jNJVFZ)
+
 ---
-title: QIP027: Partnering with Market.xyz on MAI lending market
-url: https://snapshot.org/#/qidao.eth/proposal/QmSbkF4HGzaZ3zwNRiMQqsb12sqh1dk5FfBF23P1jNJVFZ
-start: 2021-09-21T21:00:00.000Z
-end: 2021-09-26T21:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-09-21T21:00:00.000Z | 2021-09-26T21:00:00.000Z |
+
+
 ### Summary:
 
 QiDao would like to work with Market.xyz to expand the QiDao lending model to allow for competitive short-term stablecoin loans.
@@ -42,6 +45,7 @@ The option with the most votes will be chosen.
 * Partner with Market.xyz
 * Do not partner with Market.xyz
 * Further discussions needed
+
 
 ---
 | Choices | Score |

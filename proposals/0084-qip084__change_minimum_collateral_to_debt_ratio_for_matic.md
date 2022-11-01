@@ -1,9 +1,12 @@
+
+# [QIP084: Change Minimum Collateral to Debt Ratio for MATIC](https://snapshot.org/#/qidao.eth/proposal/0x1c7d084ffc05912c5e55240529126fa816ca920bec58f2e70024d98217298425)
+
 ---
-title: QIP084: Change Minimum Collateral to Debt Ratio for MATIC
-url: https://snapshot.org/#/qidao.eth/proposal/0x1c7d084ffc05912c5e55240529126fa816ca920bec58f2e70024d98217298425
-start: 2022-04-04T14:47:58.000Z
-end: 2022-04-07T03:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-04-04T14:47:58.000Z | 2022-04-07T03:00:00.000Z |
+
+
 Currently, MATIC has the highest minimum collateral to debt ratio of any MAI vault. This does not reflect MATIC's risk profile. Lowering the current CDR would align MATIC with other MAI vaults.
 
 ### Motivation
@@ -22,6 +25,7 @@ The option with the most votes will be adopted.
 * 125% min CDR
 * 130% min CDR
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

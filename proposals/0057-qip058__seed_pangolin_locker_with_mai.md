@@ -1,9 +1,12 @@
+
+# [QIP058: Seed Pangolin Locker with MAI](https://snapshot.org/#/qidao.eth/proposal/0xcfe66bfa2db538cf11a95b4bc7c307564b9d3cbc82af9d89d89624d251871296)
+
 ---
-title: QIP058: Seed Pangolin Locker with MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0xcfe66bfa2db538cf11a95b4bc7c307564b9d3cbc82af9d89d89624d251871296
-start: 2022-01-10T23:00:00.000Z
-end: 2022-01-13T23:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-01-10T23:00:00.000Z | 2022-01-13T23:00:00.000Z |
+
+
 This proposal is to decide on whether to seed MAI from the DAO into a Market.xyz lending market for Pangolin assets such as PNG, staked PNG, and LPs on Pangolin. Seeding this market would create stronger ties with one of the largest DEXs on Avalanche and with Market.xyz.
 
 QiDao will strive to maintain competitive borrowing rates for MAI by managing the supply of MAI in this market.
@@ -29,6 +32,7 @@ The option with the most votes will be adopted.
 * Further discussions needed
 
 Note: the market has not yet been launched.
+
 
 ---
 | Choices | Score |

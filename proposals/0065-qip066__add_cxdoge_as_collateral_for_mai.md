@@ -1,9 +1,12 @@
+
+# [QIP066: Add cxDOGE as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x1ef0ff653d69820ecd05f8834ecbe84a007cc4deea4b491c5e82c05c38f88064)
+
 ---
-title: QIP066: Add cxDOGE as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x1ef0ff653d69820ecd05f8834ecbe84a007cc4deea4b491c5e82c05c38f88064
-start: 2022-02-05T12:01:00.000Z
-end: 2022-02-10T12:01:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-02-05T12:01:00.000Z | 2022-02-10T12:01:00.000Z |
+
+
 This proposal is to add cxDOGE (DOGE wrapped by CelsiusX) as collateral for MAI.
 
 ### Summary
@@ -35,6 +38,7 @@ A weighted average will be used to decide on the minimum CDR if the following co
 * Further discussion needed
 
 *min CDR = minimum collateral to debt ratio
+
 ---
 | Choices | Score |
 | --- | --- |

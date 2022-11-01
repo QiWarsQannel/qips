@@ -1,9 +1,12 @@
+
+# [QIP147: Bribe Aura for Incentives on Ethereum](https://snapshot.org/#/qidao.eth/proposal/0x32a0e183627df94562496de28f2295ac079fc8e2216cc53b81490e73a2cc2281)
+
 ---
-title: QIP147: Bribe Aura for Incentives on Ethereum
-url: https://snapshot.org/#/qidao.eth/proposal/0x32a0e183627df94562496de28f2295ac079fc8e2216cc53b81490e73a2cc2281
-start: 2022-08-31T17:38:18.000Z
-end: 2022-09-03T13:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-08-31T17:38:18.000Z | 2022-09-03T13:00:00.000Z |
+
+
 Aura is a platform built to manage incentive allocations on Balancer. Protocols that bribe AURA holders for BAL incentives currently earn a 3x ROI. That means that for evert $1 of bribes, protocols receive $3 of rewards for their LP.
 
 Proposed bribe: 15k QI / week
@@ -23,6 +26,7 @@ The option with the most votes will be adopted.
 
 * Accept proposal
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

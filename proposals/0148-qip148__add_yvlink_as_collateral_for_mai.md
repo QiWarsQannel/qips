@@ -1,9 +1,12 @@
+
+# [QIP148: Add yvLINK as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x6b8dd59f808b4094626779992fdf4f4efd93e8d36d9c8ca625b0e15ba39788ca)
+
 ---
-title: QIP148: Add yvLINK as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x6b8dd59f808b4094626779992fdf4f4efd93e8d36d9c8ca625b0e15ba39788ca
-start: 2022-08-31T17:41:57.000Z
-end: 2022-09-03T13:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-08-31T17:41:57.000Z | 2022-09-03T13:00:00.000Z |
+
+
 yvLINK is a receipt token for a LINK strategy on Yearn Finance. The strategy earns 2.79% APY, which comes from 88MPH.
 
 At the time of writing, yvLINK has a TVL of $805,000 on Ethereum. 
@@ -32,6 +35,7 @@ The option with the most votes will be adopted.
 Risk grading: C-
 
 https://riskmanagement.qidao.community/en/tokens/yvlink-ethereum 
+
 ---
 | Choices | Score |
 | --- | --- |

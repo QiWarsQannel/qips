@@ -1,9 +1,12 @@
+
+# [QIP071: Add G-UNI as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x144d710e16305f1d0c53b096bd8ded525f80cf16c7d1226f0477205eb669887f)
+
 ---
-title: QIP071: Add G-UNI as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x144d710e16305f1d0c53b096bd8ded525f80cf16c7d1226f0477205eb669887f
-start: 2022-02-28T03:50:06.000Z
-end: 2022-03-04T17:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-02-28T03:50:06.000Z | 2022-03-04T17:00:00.000Z |
+
+
 We've received the following proposal from Gelato to add G-UNI as collateral for MAI.
 
 ### What is G-UNI?
@@ -26,6 +29,7 @@ The option with the most votes will be added.
 * Further discussions needed
 
 min CDR = minimum collateral to debt ratio
+
 ---
 | Choices | Score |
 | --- | --- |

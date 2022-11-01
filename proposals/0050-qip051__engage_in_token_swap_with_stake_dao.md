@@ -1,9 +1,12 @@
+
+# [QIP051: Engage in Token Swap with Stake DAO](https://snapshot.org/#/qidao.eth/proposal/0xb72bf4b92f23fcbf19618f55bbdab8a1468db7bfcf4638547ea9795833a3f357)
+
 ---
-title: QIP051: Engage in Token Swap with Stake DAO
-url: https://snapshot.org/#/qidao.eth/proposal/0xb72bf4b92f23fcbf19618f55bbdab8a1468db7bfcf4638547ea9795833a3f357
-start: 2021-12-23T22:30:00.000Z
-end: 2021-12-26T22:30:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-12-23T22:30:00.000Z | 2021-12-26T22:30:00.000Z |
+
+
 This proposal is to swap $500,000 worth of governance tokens with Stake DAO.
 
 A token swap between both projects would create aligned incentives, promoting the sharing of resources and collaboration between both projects.
@@ -50,6 +53,7 @@ Single choice voting: the option with the most votes will be adopted.
 
 * Approve token swap
 * Further discussions needed 
+
 
 ---
 | Choices | Score |

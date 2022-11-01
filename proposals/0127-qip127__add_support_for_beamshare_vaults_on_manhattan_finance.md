@@ -1,9 +1,12 @@
+
+# [QIP127: Add Support for BeamShare Vaults on Manhattan Finance](https://snapshot.org/#/qidao.eth/proposal/0x2cb8a3aca258f148a80d79119c83e5acd9fd7607d396fa8082e6fbc0dedd6f15)
+
 ---
-title: QIP127: Add Support for BeamShare Vaults on Manhattan Finance
-url: https://snapshot.org/#/qidao.eth/proposal/0x2cb8a3aca258f148a80d79119c83e5acd9fd7607d396fa8082e6fbc0dedd6f15
-start: 2022-07-20T10:35:47.000Z
-end: 2022-07-23T10:35:47.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-07-20T10:35:47.000Z | 2022-07-23T10:35:47.000Z |
+
+
 ### Partnership details
 
 BeamSwap vaults on Manhattan Finance will allow users to mint MAI against SHARE (staked GLINT) on Moonbeam at a fixed interest rate. BeamSwap will add vault creation and management to their UI.
@@ -37,6 +40,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

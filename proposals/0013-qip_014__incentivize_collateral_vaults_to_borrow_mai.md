@@ -1,9 +1,12 @@
+
+# [QIP 014: Incentivize collateral vaults to borrow MAI](https://snapshot.org/#/qidao.eth/proposal/QmXz4Stz71nEgzsADZ1wbhABpNHTVdSBjSba9ofjMgMMht)
+
 ---
-title: QIP 014: Incentivize collateral vaults to borrow MAI
-url: https://snapshot.org/#/qidao.eth/proposal/QmXz4Stz71nEgzsADZ1wbhABpNHTVdSBjSba9ofjMgMMht
-start: 2021-08-03T22:00:00.000Z
-end: 2021-08-07T22:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-08-03T22:00:00.000Z | 2021-08-07T22:00:00.000Z |
+
+
 ### Summary:
 
 How might we incentivize borrowing MAI through vaults and attract new users?
@@ -41,6 +44,7 @@ Vault incentives would be claimed each week on Wednesday for the previous week. 
 Option 1: Incentivize minting MAI through vaults with 0.1 Qi/block
 Option 2: Incentivize minting MAI through vaults with 0.05 Qi/block
 Option 3: Do not incentivize borrowing MAI through vaults
+
 
 ---
 | Choices | Score |

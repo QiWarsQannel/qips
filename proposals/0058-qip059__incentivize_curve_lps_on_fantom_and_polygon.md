@@ -1,9 +1,12 @@
+
+# [QIP059: Incentivize Curve LPs on Fantom and Polygon](https://snapshot.org/#/qidao.eth/proposal/0x80a67737939c743ef655dfc2e125238abb50421e5409e6c7425933661a651349)
+
 ---
-title: QIP059: Incentivize Curve LPs on Fantom and Polygon
-url: https://snapshot.org/#/qidao.eth/proposal/0x80a67737939c743ef655dfc2e125238abb50421e5409e6c7425933661a651349
-start: 2022-01-19T01:00:00.000Z
-end: 2022-01-23T01:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-01-19T01:00:00.000Z | 2022-01-23T01:00:00.000Z |
+
+
 This proposal is to add two farms for MAI liquidity: one on Polygon and one on Fantom. There is currently overwhelming demand to borrow MAI. This represents an important opportunity for our protocol to expand. Having more MAI liquidity in liquidity pools is necessary to increase debt ceilings without negatively impacting MAI's peg.
 
 Polygon Curve pool: MAI-USDC-USDT
@@ -25,6 +28,7 @@ The option with the most votes will be approved.
 
 * Approve pools
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

@@ -1,9 +1,12 @@
+
+# [QIP031: Add Yearn vault tokens as collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/QmajPaRhzQMtKGn7MQ1autVChUPNtq1mRYH7TspH4KJHfp)
+
 ---
-title: QIP031: Add Yearn vault tokens as collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/QmajPaRhzQMtKGn7MQ1autVChUPNtq1mRYH7TspH4KJHfp
-start: 2021-10-13T18:00:00.000Z
-end: 2021-10-15T18:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-10-13T18:00:00.000Z | 2021-10-15T18:00:00.000Z |
+
+
 This proposal is to add Yearn vault tokens (yvTokens) as collateral for borrowing MAI. 
 
 Yearn vault tokens are received when users deposit tokens into Yearn’s vault strategies. For example, depositing WFTM on Yearn gives users yvWFTM as a receipt of deposit.
@@ -27,6 +30,7 @@ The option with the most votes will be adopted.
 
 * Add Yearn vault tokens
 * Do not add Yearn vault tokens
+
 ---
 | Choices | Score |
 | --- | --- |

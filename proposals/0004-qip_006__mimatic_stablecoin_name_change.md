@@ -1,9 +1,12 @@
+
+# [QIP 006: miMatic stablecoin name change](https://snapshot.org/#/qidao.eth/proposal/QmbG9zLwNg3LjYdsavP8ZWzGtDpNgPGCB1WMW8XUx7Bnu4)
+
 ---
-title: QIP 006: miMatic stablecoin name change
-url: https://snapshot.org/#/qidao.eth/proposal/QmbG9zLwNg3LjYdsavP8ZWzGtDpNgPGCB1WMW8XUx7Bnu4
-start: 2021-06-21T08:00:00.000Z
-end: 2021-06-23T20:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-06-21T08:00:00.000Z | 2021-06-23T20:00:00.000Z |
+
+
 ## Summary:
 
 This proposal is to change the name of $miMatic (QiDao’s stablecoin).
@@ -23,6 +26,7 @@ The naming change will only happen on the frontend so that a contract migration 
 Make it easier for people to identify our stablecoin
 Reflect the multi-collateral nature of the stablecoin
 Reduce confusion about whether the coin is a stablecoin 
+
 
 
 ---

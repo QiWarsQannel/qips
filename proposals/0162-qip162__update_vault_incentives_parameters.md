@@ -1,9 +1,12 @@
+
+# [QIP162: Update Vault Incentives Parameters](https://snapshot.org/#/qidao.eth/proposal/0x0154c9d2f61e11b3012a520e3b24c50bc68db8fd01dfeadd59993a8cf4bcda2c)
+
 ---
-title: QIP162: Update Vault Incentives Parameters
-url: https://snapshot.org/#/qidao.eth/proposal/0x0154c9d2f61e11b3012a520e3b24c50bc68db8fd01dfeadd59993a8cf4bcda2c
-start: 2022-10-03T20:40:36.000Z
-end: 2022-10-06T04:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-10-03T20:40:36.000Z | 2022-10-06T04:00:00.000Z |
+
+
 ### Proposal:
 
 * Lower the maximum amount of incentives that one collateral can receive from 20% to 15% of the total.
@@ -25,6 +28,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

@@ -1,9 +1,12 @@
+
+# [QIP045: Add sdTokens as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x815862cda473ead4e50f347e9d44612326a90881efb735b04d9541c1223cfed2)
+
 ---
-title: QIP045: Add sdTokens as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x815862cda473ead4e50f347e9d44612326a90881efb735b04d9541c1223cfed2
-start: 2021-12-08T14:00:00.000Z
-end: 2021-12-13T14:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-12-08T14:00:00.000Z | 2021-12-13T14:00:00.000Z |
+
+
 QiDao has received a proposal from Stake DAO to add Stake DAO vault tokens (sdTokens) as collateral for borrowing MAI.
 
 Stake DAO vault tokens are received when users deposit tokens into Stake DAO’s smart contracts. For example, depositing ETH on Stake DAO gives users sdEth as a receipt of deposit.
@@ -33,6 +36,7 @@ The option with the most votes will be adopted.
 * Further discussion needed
 
 min CDR = minimum collateral to debt ratio
+
 ---
 | Choices | Score |
 | --- | --- |

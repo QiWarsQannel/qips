@@ -1,9 +1,12 @@
+
+# [QIP167: Add stMatic Beefy Strategy as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0xa1499fbc235f541cf50bd2f9f8f4cf431cc78b1ed0cb22c0a3d51f1943a89c3e)
+
 ---
-title: QIP167: Add stMatic Beefy Strategy as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0xa1499fbc235f541cf50bd2f9f8f4cf431cc78b1ed0cb22c0a3d51f1943a89c3e
-start: 2022-10-18T19:56:04.000Z
-end: 2022-10-22T00:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-10-18T19:56:04.000Z | 2022-10-22T00:00:00.000Z |
+
+
 Beefy currently has 3 strategies for stMatic-Matic LPs on Polygon. This proposal seeks approval for Balancer LPs as collateral for MAI. The LP on Balancer has $30M in TVL, with $12M of that farmed through Beefy. The total APY on the strategy is 13.70% at the time of writing.
 
 ### Revenue sharing
@@ -33,6 +36,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

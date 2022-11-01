@@ -1,9 +1,12 @@
+
+# [QIP063: Update Qi Emissions on Polygon](https://snapshot.org/#/qidao.eth/proposal/0x407ae2250a8406d59bc9acaa23495a80310591889ac0d7f61ce52826107496d7)
+
 ---
-title: QIP063: Update Qi Emissions on Polygon
-url: https://snapshot.org/#/qidao.eth/proposal/0x407ae2250a8406d59bc9acaa23495a80310591889ac0d7f61ce52826107496d7
-start: 2022-01-31T23:00:00.000Z
-end: 2022-02-04T23:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-01-31T23:00:00.000Z | 2022-02-04T23:00:00.000Z |
+
+
 The protocol will soon start incentivizing new MAI pools on Curve. This will result in an inflation increase for QI. This proposal is to counter that inflation increase with a reduction in QI liquidity emissions.
 
 Having deep MAI liquidity is important in growing the size of debt ceiling increases. This boosts TVL and future revenue. QI liquidity, on the other hand, serves to provide low slippage trades for QI. Given our current market cap ($40M) and liquid market cap ($20M), the QI-MATIC LP is larger than necessary for providing low slippage trades.
@@ -26,6 +29,7 @@ The option with the most votes will be adopted.
 
 * Approve emissions update
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

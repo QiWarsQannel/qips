@@ -1,9 +1,12 @@
+
+# [QIP170: Migrate Polygon Curve Incentives to Uniswap V3](https://snapshot.org/#/qidao.eth/proposal/0x8f6c4b82704e9166fed432ceed979d0e3255f5a3b1373ef0ba6a381204b38e73)
+
 ---
-title: QIP170: Migrate Polygon Curve Incentives to Uniswap V3
-url: https://snapshot.org/#/qidao.eth/proposal/0x8f6c4b82704e9166fed432ceed979d0e3255f5a3b1373ef0ba6a381204b38e73
-start: 2022-10-20T16:03:42.000Z
-end: 2022-10-23T17:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-10-20T16:03:42.000Z | 2022-10-23T17:00:00.000Z |
+
+
 Migrate Qi emissions from the MAI+3CRV pool on Curve Polygon to a MAI-USDC managed pool on Uniswap V3 Polygon.
 
 The position would be managed by Arrakis and can be found here: https://beta.arrakis.finance/vaults/137/0xa199569af06cb68960869fe376c9b41f68d8e2d1
@@ -24,6 +27,7 @@ The option with the most votes will be adopted.
 
 Approve proposal
 Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |

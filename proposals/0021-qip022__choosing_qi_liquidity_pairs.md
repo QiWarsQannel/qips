@@ -1,9 +1,12 @@
+
+# [QIP022: Choosing Qi Liquidity Pairs](https://snapshot.org/#/qidao.eth/proposal/QmdWTZfUNCJM5ZzKhTjL3U7s1FEzVHMzAaV2rptLVTwCZ4)
+
 ---
-title: QIP022: Choosing Qi Liquidity Pairs
-url: https://snapshot.org/#/qidao.eth/proposal/QmdWTZfUNCJM5ZzKhTjL3U7s1FEzVHMzAaV2rptLVTwCZ4
-start: 2021-08-28T07:01:00.000Z
-end: 2021-08-29T07:01:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-08-28T07:01:00.000Z | 2021-08-29T07:01:00.000Z |
+
+
 **Please read the entire proposal before voting, as there are several factors to consider.**
 
 ### Summary:
@@ -44,6 +47,7 @@ The winning vote must get at least 60% of the vote. If no option receives at lea
 * Option 3: QI-ETH
 * Option 4: QI-MATIC
 * Option 5: No incentives for QI pairs
+
 
 ---
 | Choices | Score |

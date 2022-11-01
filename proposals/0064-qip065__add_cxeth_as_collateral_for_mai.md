@@ -1,9 +1,12 @@
+
+# [QIP065: Add cxETH as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x244c00658c55c32a207daefcc2cca2bf8c0895c89acb084de2dcc11b4643f734)
+
 ---
-title: QIP065: Add cxETH as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x244c00658c55c32a207daefcc2cca2bf8c0895c89acb084de2dcc11b4643f734
-start: 2022-02-05T12:00:00.000Z
-end: 2022-02-10T12:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-02-05T12:00:00.000Z | 2022-02-10T12:00:00.000Z |
+
+
 This proposal is to add cxETH (ETH wrapped by CelsiusX) as collateral for MAI.
 
 ### Summary
@@ -32,6 +35,7 @@ A weighted average will be used to decide on the minimum CDR if the following co
 * Further discussion needed
 
 *min CDR = minimum collateral to debt ratio
+
 ---
 | Choices | Score |
 | --- | --- |

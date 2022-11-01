@@ -1,9 +1,12 @@
+
+# [QIP 008: Reimburse Pickle Finance for Extra Deposit Fees Paid](https://snapshot.org/#/qidao.eth/proposal/QmPxSJ7WfYjx6sFYCgNsMhCBRqgyaSmsxgBacx4cWmMpxx)
+
 ---
-title: QIP 008: Reimburse Pickle Finance for Extra Deposit Fees Paid
-url: https://snapshot.org/#/qidao.eth/proposal/QmPxSJ7WfYjx6sFYCgNsMhCBRqgyaSmsxgBacx4cWmMpxx
-start: 2021-07-03T16:00:00.000Z
-end: 2021-07-07T16:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-07-03T16:00:00.000Z | 2021-07-07T16:00:00.000Z |
+
+
 # Summary:
 
 This proposal is to reimburse Pickle Finance for deposit fees they incurred twice in their recent launch of MAI jar.
@@ -21,6 +24,7 @@ Promote good faith between projects on Polygon
 
 For: Reimburse Pickle for the extra deposit fees paid
 Against: Do not reimburse Pickle for the extra deposit fees paid
+
 ---
 | Choices | Score |
 | --- | --- |

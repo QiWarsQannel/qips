@@ -1,9 +1,12 @@
+
+# [QIP033: Add Beefy vault mooTokens as collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/Qma3NYomcoCnLriq6zuBpS22eFtTb52M8VhmUDxSXAgYz6)
+
 ---
-title: QIP033: Add Beefy vault mooTokens as collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/Qma3NYomcoCnLriq6zuBpS22eFtTb52M8VhmUDxSXAgYz6
-start: 2021-10-19T18:00:00.000Z
-end: 2021-10-21T18:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-10-19T18:00:00.000Z | 2021-10-21T18:00:00.000Z |
+
+
 This proposal is to add Beefy vault tokens (mooTokens) as collateral for borrowing MAI.
 
 Beefy vault tokens are received when users deposit tokens into Beefy strategies. For example, depositing DAI on Beefy gives users mooDAI as a receipt of deposit.
@@ -24,6 +27,7 @@ The option with the most votes will be adopted.
 ### Options
 * Add Beefy vault tokens
 * Do not add Beefy vault tokens
+
 ---
 | Choices | Score |
 | --- | --- |

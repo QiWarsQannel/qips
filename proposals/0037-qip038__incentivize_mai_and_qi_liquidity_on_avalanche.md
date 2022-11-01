@@ -1,9 +1,12 @@
+
+# [QIP038: Incentivize MAI and QI liquidity on Avalanche](https://snapshot.org/#/qidao.eth/proposal/0x0be62af9a4edbfeed0d6aae2e41392fc29300c85a86b30fafadcbb2e722c0baf)
+
 ---
-title: QIP038: Incentivize MAI and QI liquidity on Avalanche
-url: https://snapshot.org/#/qidao.eth/proposal/0x0be62af9a4edbfeed0d6aae2e41392fc29300c85a86b30fafadcbb2e722c0baf
-start: 2021-11-16T16:59:00.000Z
-end: 2021-11-20T16:59:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-11-16T16:59:00.000Z | 2021-11-20T16:59:00.000Z |
+
+
 This proposal is to decide on whether to incentivize MAI and QI liquidity on Avalanche with Qi tokens.
 
 In order to continue growing on Avalanche while maintaining MAI’s peg, the protocol needs liquidity pools holding MAI. 
@@ -28,6 +31,7 @@ The option with the most vote will be adopted
 ### Options
 * Incentivize new LPs
 * Further discussion needed
+
 ---
 | Choices | Score |
 | --- | --- |

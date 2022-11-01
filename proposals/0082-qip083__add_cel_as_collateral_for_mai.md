@@ -1,9 +1,12 @@
+
+# [QIP083: Add CEL as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x8f139dcc3469fbc8223584c9f8c3aeba8133948d7b7ef4a83a9dcb9a84091bfc)
+
 ---
-title: QIP083: Add CEL as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x8f139dcc3469fbc8223584c9f8c3aeba8133948d7b7ef4a83a9dcb9a84091bfc
-start: 2022-04-03T13:01:39.000Z
-end: 2022-04-06T03:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-04-03T13:01:39.000Z | 2022-04-06T03:00:00.000Z |
+
+
 Proposal from CelsiusX:
 
 ### Summary
@@ -40,6 +43,7 @@ A weighted average will be used to decide on the minimum CDR if the following co
 - 2018 ICO $50mm Raise: https://icodrops.com/celsius/
 - Rank #80 on Coingecko: https://www.coingecko.com/en/coins/celsius-network-token
 - CEL weekly buy & burn: https://twitter.com/CelsiusNetwork/status/1504877945722134531?s=20&t=ln9hOcK_DnDapV_BKpT7Ow 
+
 ---
 | Choices | Score |
 | --- | --- |

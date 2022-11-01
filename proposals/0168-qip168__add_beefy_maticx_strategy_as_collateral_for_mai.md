@@ -1,9 +1,12 @@
+
+# [QIP168: Add Beefy MaticX Strategy as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x0a7e043839efceac299ece5212ee93ae421a9e1f4512a08ea048cf5a13944312)
+
 ---
-title: QIP168: Add Beefy MaticX Strategy as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x0a7e043839efceac299ece5212ee93ae421a9e1f4512a08ea048cf5a13944312
-start: 2022-10-18T20:02:06.000Z
-end: 2022-10-21T22:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-10-18T20:02:06.000Z | 2022-10-21T22:00:00.000Z |
+
+
 Beefy currently has 2 strategies for MaticX-Matic LPs on Polygon. This proposal seeks approval for Balancer LPs as collateral for MAI. The LP on Balancer has $18M in TVL, with $2.8M of that farmed through Beefy. The total APY on the strategy is 12.83% at the time of writing.
 
 ### Revenue sharing
@@ -33,6 +36,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

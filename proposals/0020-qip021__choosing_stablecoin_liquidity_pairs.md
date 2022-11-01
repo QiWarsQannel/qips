@@ -1,9 +1,12 @@
+
+# [QIP021: Choosing Stablecoin Liquidity Pairs](https://snapshot.org/#/qidao.eth/proposal/QmYL1SHuENamxHZDMuUjv8axvUpFKTf3F3BLxp4t1o25bc)
+
 ---
-title: QIP021: Choosing Stablecoin Liquidity Pairs
-url: https://snapshot.org/#/qidao.eth/proposal/QmYL1SHuENamxHZDMuUjv8axvUpFKTf3F3BLxp4t1o25bc
-start: 2021-08-28T07:00:00.000Z
-end: 2021-08-29T07:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-08-28T07:00:00.000Z | 2021-08-29T07:00:00.000Z |
+
+
 **Please read the entire proposal before voting, as there are several factors to consider.**
 
 ### Summary:
@@ -50,6 +53,7 @@ The winning vote must get at least 60% of the vote. If no option receives at lea
 * Option 3: 2 Stable pairs (MAI-USDC, MAI-USDT)
 * Option 4: 1 Stable pair (MAI-USDC)
 * Option 5: No incentives for stablecoin pairs
+
 
 ---
 | Choices | Score |

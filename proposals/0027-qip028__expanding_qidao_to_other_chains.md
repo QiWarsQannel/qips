@@ -1,9 +1,12 @@
+
+# [QIP028: Expanding QiDao to other chains](https://snapshot.org/#/qidao.eth/proposal/QmWn4xEcY1fsq82DBm7FFRKuqBUkP1aGu1CL5vEcyyTph5)
+
 ---
-title: QIP028: Expanding QiDao to other chains
-url: https://snapshot.org/#/qidao.eth/proposal/QmWn4xEcY1fsq82DBm7FFRKuqBUkP1aGu1CL5vEcyyTph5
-start: 2021-10-11T07:00:00.000Z
-end: 2021-10-14T07:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-10-11T07:00:00.000Z | 2021-10-14T07:00:00.000Z |
+
+
 This proposal is to decide whether to expand MAI lending to other chains.
 
 In the past few months, QiDao has become the largest stablecoin protocol on Polygon. Polygon has provided a great place to build a product that we believe can benefit users across the DeFi space. QiDao has grown from collaborations with all major projects on Polygon, and recently with projects outside of Polygon. QiDao has expanded MAI’s liquidity to Solana (11M MAI), Avalanche (4.6M MAI) and Moonriver (1.9M MAI). 
@@ -27,6 +30,7 @@ The option with the most votes will be adopted.
 
 * Approve QiDao's expansion
 * Do not approve QiDao's expansion
+
 ---
 | Choices | Score |
 | --- | --- |

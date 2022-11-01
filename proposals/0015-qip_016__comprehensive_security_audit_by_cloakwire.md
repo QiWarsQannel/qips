@@ -1,9 +1,12 @@
+
+# [QIP 016: Comprehensive security audit by Cloakwire](https://snapshot.org/#/qidao.eth/proposal/QmafkhJ2nVcBpj37yJVsdmPe4WjWikcgaovQsBUSDp5BFA)
+
 ---
-title: QIP 016: Comprehensive security audit by Cloakwire
-url: https://snapshot.org/#/qidao.eth/proposal/QmafkhJ2nVcBpj37yJVsdmPe4WjWikcgaovQsBUSDp5BFA
-start: 2021-08-09T03:00:00.000Z
-end: 2021-08-13T03:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-08-09T03:00:00.000Z | 2021-08-13T03:00:00.000Z |
+
+
 ### Summary:
 
 We were approached by an auditing firm called [Cloackwire](https://cloakwire.com/) to perform a comprehensive audit on QiDao. Given that this is a community-run project, we’re forwarding this proposal for the community to vote on.
@@ -44,6 +47,7 @@ For: Perform the security with Cloakwire for 36,000 Qi
 Against: Do not conduct the audit with Cloakwire for 36,000 Qi
 
 Your voting power is represented in Qi Powah. If you want to increase your voting power you can go to the Boost page on the [mai.finance](https://app.mai.finance/boost) site.  
+
 
 ---
 | Choices | Score |

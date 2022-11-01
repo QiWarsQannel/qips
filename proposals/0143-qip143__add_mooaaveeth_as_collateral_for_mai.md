@@ -1,9 +1,12 @@
+
+# [QIP143: Add mooAaveETH as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0x335397b92c625cf75f1e1a7b4ca714600d9f2551d2c825aa059af27bbb7fb190)
+
 ---
-title: QIP143: Add mooAaveETH as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0x335397b92c625cf75f1e1a7b4ca714600d9f2551d2c825aa059af27bbb7fb190
-start: 2022-08-28T21:09:54.000Z
-end: 2022-09-01T05:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-08-28T21:09:54.000Z | 2022-09-01T05:00:00.000Z |
+
+
 mooAaveETH is a receipt token from Beefy Finance, which autocompounds yield earned on ETH on Aave Optimism. This yield comes from both interest on Aave as well as added OP incentives.
 
 At the time of writing, mooAaveETH earns 3.83% APY, with $95k TVL on Beefy out of Aave’s $132.62M TVL for this asset.
@@ -35,6 +38,7 @@ The option with the most votes will be adopted.
 Risk grading: C+
 
 https://riskmanagement.qidao.community/en/tokens/mooaaveeth-optimism
+
 ---
 | Choices | Score |
 | --- | --- |

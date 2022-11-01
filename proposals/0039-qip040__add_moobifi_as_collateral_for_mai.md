@@ -1,9 +1,12 @@
+
+# [QIP040: Add mooBIFI as Collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0xb7b356e147a7f8df2297b9f64a9b1086d62303aab3d17482943631fae7400b89)
+
 ---
-title: QIP040: Add mooBIFI as Collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0xb7b356e147a7f8df2297b9f64a9b1086d62303aab3d17482943631fae7400b89
-start: 2021-11-22T08:00:00.000Z
-end: 2021-11-25T08:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-11-22T08:00:00.000Z | 2021-11-25T08:00:00.000Z |
+
+
 We've received a proposal from Beefy Finance to add mooBIFI as collateral for borrowing MAI. 
 
 mooBIFI is the staked, yield-bearing form of BIFI. By using it as collateral, you’re able to collect BIFI staking rewards while borrowing against its value.
@@ -38,6 +41,7 @@ The option with the most votes will be adopted.
 * Add mooBIFI at 135% min CDR
 * Add mooBIFI at 140% min CDR
 * Further discussion is needed
+
 ---
 | Choices | Score |
 | --- | --- |

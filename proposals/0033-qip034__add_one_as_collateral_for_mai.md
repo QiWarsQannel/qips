@@ -1,9 +1,12 @@
+
+# [QIP034: Add ONE as collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/QmNZuvzFW3x9yxiwHqxcqaj4vkfdXcwUGzWdJUcN5HSHNV)
+
 ---
-title: QIP034: Add ONE as collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/QmNZuvzFW3x9yxiwHqxcqaj4vkfdXcwUGzWdJUcN5HSHNV
-start: 2021-10-26T22:00:00.000Z
-end: 2021-10-29T17:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-10-26T22:00:00.000Z | 2021-10-29T17:00:00.000Z |
+
+
 This proposal is to add ONE as collateral for borrowing MAI.
 
 By adding more assets, we attract a wider range of users who seek to gain stable value from their tokens at 0% interest. Vaults allow the users to gain the benefit of a stablecoin without spending the underlying asset.
@@ -35,6 +38,7 @@ The option with the most votes will be adopted.
 
 * Add ONE
 * Do not add ONE
+
 
 ---
 | Choices | Score |

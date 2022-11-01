@@ -1,9 +1,12 @@
+
+# [QIP095: Add Support for StellaSwap Lending](https://snapshot.org/#/qidao.eth/proposal/0x7711e0d7fda22993b3e25918b3f8dc62bb070708817665e106d458f1becb2b4b)
+
 ---
-title: QIP095: Add Support for StellaSwap Lending
-url: https://snapshot.org/#/qidao.eth/proposal/0x7711e0d7fda22993b3e25918b3f8dc62bb070708817665e106d458f1becb2b4b
-start: 2022-05-03T00:51:23.000Z
-end: 2022-05-05T22:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-05-03T00:51:23.000Z | 2022-05-05T22:00:00.000Z |
+
+
 ### Proposal
 
 Add Support for StellaSwap Vaults.
@@ -43,6 +46,7 @@ The option with the most votes will be adopted.
 
 * Approve proposal
 * Further discussions needed 
+
 ---
 | Choices | Score |
 | --- | --- |

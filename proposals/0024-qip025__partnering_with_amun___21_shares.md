@@ -1,9 +1,12 @@
+
+# [QIP025: Partnering with Amun / 21 Shares](https://snapshot.org/#/qidao.eth/proposal/QmVwCGLKkzjS6Wfewi1sLpK6Si673WoPSkrV2H3n1cTgpE)
+
 ---
-title: QIP025: Partnering with Amun / 21 Shares
-url: https://snapshot.org/#/qidao.eth/proposal/QmVwCGLKkzjS6Wfewi1sLpK6Si673WoPSkrV2H3n1cTgpE
-start: 2021-09-06T22:58:00.000Z
-end: 2021-09-10T22:58:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2021-09-06T22:58:00.000Z | 2021-09-10T22:58:00.000Z |
+
+
 ### Summary:
 
 Amun / 21 Shares has approached QiDao to include QI in their Polygon index token. We’re forwarding this proposal to the community to vote on whether to approve this partnership.
@@ -31,6 +34,7 @@ Options must receive more than 50% of the vote to pass.
 
 Yes: partner with Amun
 No: do not partner with Amun
+
 
 ---
 | Choices | Score |

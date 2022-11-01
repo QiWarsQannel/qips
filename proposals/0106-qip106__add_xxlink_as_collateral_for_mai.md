@@ -1,9 +1,12 @@
+
+# [QIP106: Add xxLINK as collateral for MAI](https://snapshot.org/#/qidao.eth/proposal/0xf41701836580332986c3dd074b04f3b25eb4379c2162f2b2a947943bf10bcd0c)
+
 ---
-title: QIP106: Add xxLINK as collateral for MAI
-url: https://snapshot.org/#/qidao.eth/proposal/0xf41701836580332986c3dd074b04f3b25eb4379c2162f2b2a947943bf10bcd0c
-start: 2022-05-26T04:29:19.000Z
-end: 2022-05-30T16:00:00.000Z
----
+| Start | End |
+| --- | --- |
+| 2022-05-26T04:29:19.000Z | 2022-05-30T16:00:00.000Z |
+
+
 xxLINK (Tetu autocompounding LINK) is a LINK strategy on Tetu.io. It earns yield through Tetu’s Splitter vault strategy by leveraging Aave. Additional strategies can be added by Tetu to diversify yields. 
 
 ### Motivation
@@ -25,6 +28,7 @@ The option with the most votes will be adopted. A weighted average will be used 
 * Add xxLINK at 150% min CDR
 * Add xxLINK at 160% min CDR
 * Further discussions needed
+
 ---
 | Choices | Score |
 | --- | --- |
