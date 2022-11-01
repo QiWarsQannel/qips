@@ -86,6 +86,7 @@ ${table}
 
   Full list of QIPs (QiDAO Improvement Proposals). Data generated from the official snapshot with the intent of making it easier to search through all the proposals.
   
+  ---
   *Last updated at ${last_updated}*`;
 
   try {
