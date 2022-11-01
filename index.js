@@ -1,5 +1,6 @@
-import { request, gql } from "graphql-request";
+import pkg from "graphql-request";
 import fs from "fs";
+const { request, gql } = pkg;
 
 const query = gql`
   query {
