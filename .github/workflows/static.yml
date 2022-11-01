@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch snapshot
-        run: ./npm run build
+        uses: Adzz/jest_test_action@v1.0.0
+        with:
+          package-manager: npm
+          command: run build
       - name: Build and deploy
         uses: monstar-lab-oss/honkit-ghpages-action@main
