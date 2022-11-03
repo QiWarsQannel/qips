@@ -6,7 +6,7 @@ const query = gql`
   query {
     proposals(
       first: 9999
-      where: { space: "qidao.eth" }
+      where: { space: "qidao.eth", state: "closed" }
       orderBy: "created"
       orderDirection: asc
     ) {
