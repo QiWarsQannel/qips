@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>QIP084: Change Minimum Collateral to Debt Ratio for MATIC · HonKit</title>
+        <title>QIP171: Vault Incentives Gauge (Round 22) · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.6">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="0085-qip085__vault_incentives_gauge__round_7_.html" />
     
-    
-    <link rel="prev" href="0083-qip082__choose_minimum_collateral_to_debt_ratio_for_sand.html" />
+    <link rel="prev" href="0170-qip170__migrate_polygon_curve_incentives_to_uniswap_v3.html" />
     
 
     </head>
@@ -1183,7 +1181,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.85" data-path="0084-qip084__change_minimum_collateral_to_debt_ratio_for_matic.html">
+        <li class="chapter " data-level="1.85" data-path="0084-qip084__change_minimum_collateral_to_debt_ratio_for_matic.html">
             
                 <a href="0084-qip084__change_minimum_collateral_to_debt_ratio_for_matic.html">
             
@@ -2314,7 +2312,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.172" data-path="0171-qip171__vault_incentives_gauge__round_22_.html">
+        <li class="chapter active" data-level="1.172" data-path="0171-qip171__vault_incentives_gauge__round_22_.html">
             
                 <a href="0171-qip171__vault_incentives_gauge__round_22_.html">
             
@@ -2357,7 +2355,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >QIP084: Change Minimum Collateral to Debt Ratio for MATIC</a>
+        <a href=".." >QIP171: Vault Incentives Gauge (Round 22)</a>
     </h1>
 </div>
 
@@ -2372,7 +2370,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="qip084-change-minimum-collateral-to-debt-ratio-for-matic"><a href="https://snapshot.org/#/qidao.eth/proposal/0x1c7d084ffc05912c5e55240529126fa816ca920bec58f2e70024d98217298425" target="_blank">QIP084: Change Minimum Collateral to Debt Ratio for MATIC</a></h1>
+                                <h1 id="qip171-vault-incentives-gauge-round-22"><a href="https://snapshot.org/#/qidao.eth/proposal/0x966ef5d3b93c5ec6dc420381e66e657b76fedc8b7746e4ed9b8fe7c96cde50d9" target="_blank">QIP171: Vault Incentives Gauge (Round 22)</a></h1>
 <hr>
 <table>
 <thead>
@@ -2383,27 +2381,18 @@
 </thead>
 <tbody>
 <tr>
-<td>2022-04-04T14:47:58.000Z</td>
-<td>2022-04-07T03:00:00.000Z</td>
+<td>2022-11-02T07:00:05.000Z</td>
+<td>2022-11-06T03:00:05.000Z</td>
 </tr>
 </tbody>
 </table>
-<p>Currently, MATIC has the highest minimum collateral to debt ratio of any MAI vault. This does not reflect MATIC&apos;s risk profile. Lowering the current CDR would align MATIC with other MAI vaults.</p>
-<h3 id="motivation">Motivation</h3>
-<ul>
-<li>increase capital efficiency</li>
-<li>align min CDR with other vaults</li>
-<li>attract more TVL</li>
-</ul>
-<h3 id="quorum-standards">Quorum Standards</h3>
-<p>The option with the most votes will be adopted.</p>
-<h3 id="options">Options</h3>
-<ul>
-<li>120% min CDR</li>
-<li>125% min CDR</li>
-<li>130% min CDR</li>
-<li>Further discussions needed</li>
-</ul>
+<p>Vault incentives are allocated a total of 150k Qi per week. Following QIP047 &amp; QIP162 the distribution of these rewards among vault types will be decided every two weeks by the DAO.</p>
+<p>To vote, you must hold Qi. You can distribute your voting power among as many and as few collateral types as you wish. The aggregate distribution of responses will be used to calculate the final distribution of rewards.</p>
+<h3 id="quorum-standards">Quorum Standards:</h3>
+<p>Following QIP162, a minimum allocation of 7,500 QI per week (5% of the vote) is needed for a chain to receive rewards. If the collateral types for a chain collectively do not achieve a 7,500 QI per week allocation, then their rewards will be proportionally split among the other eligible collateral types.</p>
+<p>Each vault type can get a maximum of 15% of the total incentives. Any extra percentage over 15% will be distributed among the other collaterals receiving votes in proportion to their vote share.</p>
+<p>Vaults must have a minimum of 100 MAI debt to receive incentives unless the minimum borrow for a vault type is set higher.</p>
+<p>Note: Qi holders will be able to vote from any chain that has QI.</p>
 <hr>
 <table>
 <thead>
@@ -2414,19 +2403,223 @@
 </thead>
 <tbody>
 <tr>
-<td>120% min CDR</td>
-<td>52.17%</td>
+<td>WETH (Ethereum)</td>
+<td>0.00%</td>
 </tr>
 <tr>
-<td>125% min CDR</td>
-<td>20.91%</td>
+<td>WBTC (Ethereum)</td>
+<td>0.00%</td>
 </tr>
 <tr>
-<td>130% min CDR</td>
-<td>26.92%</td>
+<td>StakeDAO Curve ETH/stETH (Eth)</td>
+<td>0.03%</td>
 </tr>
 <tr>
-<td>Further discussions needed</td>
+<td>Yearn Curve ETH/stETH (Ethereum)</td>
+<td>15.68%</td>
+</tr>
+<tr>
+<td>Yearn WETH (Ethereum)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn LINK (Ethereum)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WETH (Optimism)</td>
+<td>0.02%</td>
+</tr>
+<tr>
+<td>WBTC (Optimism)</td>
+<td>3.15%</td>
+</tr>
+<tr>
+<td>OP (Optimism)</td>
+<td>0.04%</td>
+</tr>
+<tr>
+<td>Beefy Aave ETH (Optimism)</td>
+<td>4.78%</td>
+</tr>
+<tr>
+<td>Beefy Aave BTC (Optimism)</td>
+<td>6.91%</td>
+</tr>
+<tr>
+<td>BNB (BNB)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>CAKE (BNB)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>DODO (BNB)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WETH (Gnosis Chain)</td>
+<td>0.96%</td>
+</tr>
+<tr>
+<td>GNO (Gnosis Chain)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Compounding Aave MATIC (Polygon)</td>
+<td>4.16%</td>
+</tr>
+<tr>
+<td>WETH (Polygon)</td>
+<td>0.21%</td>
+</tr>
+<tr>
+<td>Compounding Aave ETH (Polygon)</td>
+<td>3.57%</td>
+</tr>
+<tr>
+<td>Compounding Aave AAVE (Polygon)</td>
+<td>0.21%</td>
+</tr>
+<tr>
+<td>AAVE (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>LINK (Polygon)</td>
+<td>0.36%</td>
+</tr>
+<tr>
+<td>CRV (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WBTC (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Compounding Aave WBTC (Polygon)</td>
+<td>0.02%</td>
+</tr>
+<tr>
+<td>BAL (Polygon)</td>
+<td>0.21%</td>
+</tr>
+<tr>
+<td>GHST (Polygon)</td>
+<td>0.17%</td>
+</tr>
+<tr>
+<td>Frax Share (Polygon)</td>
+<td>0.01%</td>
+</tr>
+<tr>
+<td>vGHST (Polygon)</td>
+<td>2.55%</td>
+</tr>
+<tr>
+<td>SAND (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Wrapped MATIC (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>xxLINK (Polygon)</td>
+<td>48.47%</td>
+</tr>
+<tr>
+<td>KNC (Polygon)</td>
+<td>0.21%</td>
+</tr>
+<tr>
+<td>WFTM (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn vault WFTM (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn vault BTC (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn vault YFI (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn vault ETH (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WETH (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>AAVE (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>SUSHI (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>LINK (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WBTC (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>mooBIFI (Fantom)</td>
+<td>0.01%</td>
+</tr>
+<tr>
+<td>xBOO (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>METIS (Metis)</td>
+<td>0.04%</td>
+</tr>
+<tr>
+<td>WETH (Metis)</td>
+<td>8.22%</td>
+</tr>
+<tr>
+<td>WBTC (Metis)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>MOVR (Moonriver)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WETH (Arbitrum)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WBTC (Arbitrum)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Beefy Aave AVAX (Avalanche)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WBTC (Avalanche)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WETH (Avalanche)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WAVAX (Avalanche)</td>
 <td>0.00%</td>
 </tr>
 </tbody>
@@ -2458,14 +2651,10 @@
 
             
                 
-                <a href="0083-qip082__choose_minimum_collateral_to_debt_ratio_for_sand.html" class="navigation navigation-prev " aria-label="Previous page: QIP082: Choose Minimum Collateral to Debt Ratio for SAND">
+                <a href="0170-qip170__migrate_polygon_curve_incentives_to_uniswap_v3.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: QIP170: Migrate Polygon Curve Incentives to Uniswap V3">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="0085-qip085__vault_incentives_gauge__round_7_.html" class="navigation navigation-next " aria-label="Next page: QIP085: Vault Incentives Gauge (Round 7)">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -2474,7 +2663,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"QIP084: Change Minimum Collateral to Debt Ratio for MATIC","level":"1.85","depth":1,"next":{"title":"QIP085: Vault Incentives Gauge (Round 7)","level":"1.86","depth":1,"path":"proposals/0085-qip085__vault_incentives_gauge__round_7_.md","ref":"proposals/0085-qip085__vault_incentives_gauge__round_7_.md","articles":[]},"previous":{"title":"QIP082: Choose Minimum Collateral to Debt Ratio for SAND","level":"1.84","depth":1,"path":"proposals/0083-qip082__choose_minimum_collateral_to_debt_ratio_for_sand.md","ref":"proposals/0083-qip082__choose_minimum_collateral_to_debt_ratio_for_sand.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"proposals/0084-qip084__change_minimum_collateral_to_debt_ratio_for_matic.md","mtime":"2022-11-03T01:27:05.193Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2022-11-03T01:27:05.738Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"QIP171: Vault Incentives Gauge (Round 22)","level":"1.172","depth":1,"previous":{"title":"QIP170: Migrate Polygon Curve Incentives to Uniswap V3","level":"1.171","depth":1,"path":"proposals/0170-qip170__migrate_polygon_curve_incentives_to_uniswap_v3.md","ref":"proposals/0170-qip170__migrate_polygon_curve_incentives_to_uniswap_v3.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"proposals/0171-qip171__vault_incentives_gauge__round_22_.md","mtime":"2022-11-03T01:27:05.197Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2022-11-03T01:27:05.738Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
