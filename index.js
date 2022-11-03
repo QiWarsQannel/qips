@@ -25,8 +25,7 @@ const query = gql`
 
 request("https://hub.snapshot.org/graphql", query).then((data) => {
   const proposals = data["proposals"];
-  let summary = 
-`# Summary
+  let summary = `# Summary
 
 ## QiDAO Improvement Proposals
 
@@ -53,7 +52,9 @@ request("https://hub.snapshot.org/graphql", query).then((data) => {
 ---
 | Start | End |
 | --- | --- |
-| ${new Date(proposal["start"] * 1000).toISOString()} | ${new Date(proposal["end"] * 1000).toISOString()} |
+| ${new Date(proposal["start"] * 1000).toISOString()} | ${new Date(
+      proposal["end"] * 1000
+    ).toISOString()} |
 
 
 ${proposal["body"]}
@@ -63,10 +64,17 @@ ${proposal["body"]}
 | --- | --- |
 ${table}
 `;
+
+    var dir = "./proposals";
+
+    if (!fs.existsSync(dir)) {
+      fs.mkdirSync(dir);
+    }
+
     let filename = proposal["title"].replace(/[^a-z0-9]/gi, "_").toLowerCase();
     let filepath =
       "proposals/" + String(k + 1).padStart(4, "0") + "-" + filename + ".md";
-      summary+="* ["+proposal["title"]+"]("+filepath+")\n";
+    summary += "* [" + proposal["title"] + "](" + filepath + ")\n";
 
     try {
       fs.writeFileSync(filepath, content);
@@ -82,8 +90,7 @@ ${table}
     console.error(err);
   }
   let last_updated = new Date().toISOString();
-  let readme =
-  `# QiDAO Improvement Proposals
+  let readme = `# QiDAO Improvement Proposals
 
   Full list of QIPs (QiDAO Improvement Proposals). Data generated from the official snapshot with the intent of making it easier to search through all the proposals.
   
@@ -97,5 +104,4 @@ ${table}
   } catch (err) {
     console.error(err);
   }
-
 });
