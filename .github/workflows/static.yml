@@ -6,7 +6,7 @@ on:
     branches:
         - master # pls change trigger on each repos
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * 1"
 env:
   USER_EMAIL: ${{secrets.USER_EMAIL}}
   USER_NAME: ${{secrets.USER_NAME}}
