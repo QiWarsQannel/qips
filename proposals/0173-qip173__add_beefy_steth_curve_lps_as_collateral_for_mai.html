@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>QIP102: Add yvUSDC as Collateral for MAI · HonKit</title>
+        <title>QIP173: Add Beefy stETH Curve LPs as collateral for MAI · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.6">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="0103-qip103__add_xboo_as_collateral_for_mai.html" />
+    <link rel="next" href="0174-qip174__add_yveth_on_optimism_as_collateral_for_mai__.html" />
     
     
-    <link rel="prev" href="0101-qip101___add_xxdai_as_collateral_for_mai.html" />
+    <link rel="prev" href="0172-qip172__vault_incentives_gauge__round_23_.html" />
     
 
     </head>
@@ -1417,7 +1417,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.103" data-path="0102-qip102__add_yvusdc_as_collateral_for_mai.html">
+        <li class="chapter " data-level="1.103" data-path="0102-qip102__add_yvusdc_as_collateral_for_mai.html">
             
                 <a href="0102-qip102__add_yvusdc_as_collateral_for_mai.html">
             
@@ -2340,7 +2340,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.174" data-path="0173-qip173__add_beefy_steth_curve_lps_as_collateral_for_mai.html">
+        <li class="chapter active" data-level="1.174" data-path="0173-qip173__add_beefy_steth_curve_lps_as_collateral_for_mai.html">
             
                 <a href="0173-qip173__add_beefy_steth_curve_lps_as_collateral_for_mai.html">
             
@@ -2409,7 +2409,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >QIP102: Add yvUSDC as Collateral for MAI</a>
+        <a href=".." >QIP173: Add Beefy stETH Curve LPs as collateral for MAI</a>
     </h1>
 </div>
 
@@ -2424,7 +2424,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="qip102-add-yvusdc-as-collateral-for-mai"><a href="https://snapshot.org/#/qidao.eth/proposal/0x8e2e404d259b716d4d1c9a27cfbc5144134f01acf642a75820b3740bbaddac24" target="_blank">QIP102: Add yvUSDC as Collateral for MAI</a></h1>
+                                <h1 id="qip173-add-beefy-steth-curve-lps-as-collateral-for-mai"><a href="https://snapshot.org/#/qidao.eth/proposal/0x4ccb04839cb3254dbc9b84cc64e613407bce6aa8233a7f5c60d02b354e6d06f8" target="_blank">QIP173: Add Beefy stETH Curve LPs as collateral for MAI</a></h1>
 <hr>
 <table>
 <thead>
@@ -2435,34 +2435,30 @@
 </thead>
 <tbody>
 <tr>
-<td>2022-05-16T16:00:11.000Z</td>
-<td>2022-05-19T16:00:00.000Z</td>
+<td>2022-11-21T06:54:49.000Z</td>
+<td>2022-11-24T04:00:00.000Z</td>
 </tr>
 </tbody>
 </table>
-<p>yvUSDC (Yearn Vault USDC) is a USDC strategy on Yearn Finance. It earns yield from Iron Bank.</p>
-<p>At the time of writing, there was $13M locked in yvUSDC. There are no major use cases for yvUSDC on Fantom.</p>
+<p>Lido has recently started an stETH-ETH LP on Curve Optimism. Beefy is working on a vault to autocompound rewards from this pool. This proposal seeks approval for these Curve LPs as collateral for MAI. The LP on Curve has $1M in TVL, with the Beefy vault being built right now. The total APY on the strategy is over 50% at the time of writing. That APR should stabilize as more TVL comes in.</p>
+<h3 id="fees">Fees</h3>
+<p>QiDao will implement an optional 0-10% performance fee on the APR of this strategy when used as collateral. Performance fee will depend on whether Beefy Finance votes to implement revenue distributions.</p>
+<h3 id="grants">Grants</h3>
+<p>Lido has allocated an initial 10,000 LDO grant to kickstart this vault. More LDO can be allocated as we see usage.</p>
+<h3 id="proposed-risk-parameters">Proposed risk parameters</h3>
+<p>130% minimum collateral to debt ratio
+Minimum borrow: 10 MAI
+Maximum borrow per vault: 1M MAI</p>
 <h3 id="motivation">Motivation</h3>
-<ul>
-<li>grow relationship with Yearn</li>
-<li>increase protocol revenue</li>
-<li>increase TVL</li>
-</ul>
+<p>Grow TVL on Optimism
+Increase revenue
+Strengthen relationship with Lido and Beefy</p>
 <h3 id="quorum-standards">Quorum Standards</h3>
 <p>The option with the most votes will be adopted.</p>
-<p>A weighted average will be used to decide on the minimum CDR if the following conditions are met:</p>
-<ul>
-<li>The options to add yvUSDC collectively outweigh the option to not add yvUSDC.</li>
-<li>The option to not add yvUSDC receives more votes than any option to add yvUSDC.</li>
-</ul>
 <h3 id="options">Options</h3>
-<ul>
-<li>Add yvUSDC at 110% min CDR</li>
-<li>Add yvUSDC at 115% min CDR</li>
-<li>Add yvUSDC at 120% min CDR</li>
-<li>Further discussions needed </li>
-</ul>
-<p>min CDR = minimum collateral to debt ratio</p>
+<p>Add stETH LP strategy as collateral
+Further discussions needed</p>
+<p>Risk analysis: <a href="https://riskmanagement.qidao.community/en/tokens/curve-steth-ethereum" target="_blank">https://riskmanagement.qidao.community/en/tokens/curve-steth-ethereum</a></p>
 <hr>
 <table>
 <thead>
@@ -2473,20 +2469,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Add yvUSDC at 110% min CDR</td>
-<td>23.75%</td>
-</tr>
-<tr>
-<td>Add yvUSDC at 115% min CDR</td>
-<td>0.10%</td>
-</tr>
-<tr>
-<td>Add yvUSDC at 120% min CDR</td>
-<td>74.44%</td>
+<td>Add stETH LP as collateral</td>
+<td>99.53%</td>
 </tr>
 <tr>
 <td>Further discussions needed</td>
-<td>1.71%</td>
+<td>0.47%</td>
 </tr>
 </tbody>
 </table>
@@ -2517,12 +2505,12 @@
 
             
                 
-                <a href="0101-qip101___add_xxdai_as_collateral_for_mai.html" class="navigation navigation-prev " aria-label="Previous page: QIP101:  Add xxDAI as Collateral for MAI">
+                <a href="0172-qip172__vault_incentives_gauge__round_23_.html" class="navigation navigation-prev " aria-label="Previous page: QIP172: Vault Incentives Gauge (Round 23)">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="0103-qip103__add_xboo_as_collateral_for_mai.html" class="navigation navigation-next " aria-label="Next page: QIP103: Add xBOO as Collateral for MAI">
+                <a href="0174-qip174__add_yveth_on_optimism_as_collateral_for_mai__.html" class="navigation navigation-next " aria-label="Next page: QIP174: Add yvETH on Optimism as collateral for MAI. ">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -2533,7 +2521,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"QIP102: Add yvUSDC as Collateral for MAI","level":"1.103","depth":1,"next":{"title":"QIP103: Add xBOO as Collateral for MAI","level":"1.104","depth":1,"path":"proposals/0103-qip103__add_xboo_as_collateral_for_mai.md","ref":"proposals/0103-qip103__add_xboo_as_collateral_for_mai.md","articles":[]},"previous":{"title":"QIP101:  Add xxDAI as Collateral for MAI","level":"1.102","depth":1,"path":"proposals/0101-qip101___add_xxdai_as_collateral_for_mai.md","ref":"proposals/0101-qip101___add_xxdai_as_collateral_for_mai.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"proposals/0102-qip102__add_yvusdc_as_collateral_for_mai.md","mtime":"2022-11-28T01:02:50.013Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2022-11-28T01:02:50.713Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"QIP173: Add Beefy stETH Curve LPs as collateral for MAI","level":"1.174","depth":1,"next":{"title":"QIP174: Add yvETH on Optimism as collateral for MAI. ","level":"1.175","depth":1,"path":"proposals/0174-qip174__add_yveth_on_optimism_as_collateral_for_mai__.md","ref":"proposals/0174-qip174__add_yveth_on_optimism_as_collateral_for_mai__.md","articles":[]},"previous":{"title":"QIP172: Vault Incentives Gauge (Round 23)","level":"1.173","depth":1,"path":"proposals/0172-qip172__vault_incentives_gauge__round_23_.md","ref":"proposals/0172-qip172__vault_incentives_gauge__round_23_.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"proposals/0173-qip173__add_beefy_steth_curve_lps_as_collateral_for_mai.md","mtime":"2022-11-28T01:02:50.021Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2022-11-28T01:02:50.713Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

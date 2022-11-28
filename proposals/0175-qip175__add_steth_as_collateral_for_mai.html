@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>QIP102: Add yvUSDC as Collateral for MAI · HonKit</title>
+        <title>QIP175: Add stETH as collateral for MAI · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.6">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="0103-qip103__add_xboo_as_collateral_for_mai.html" />
     
-    
-    <link rel="prev" href="0101-qip101___add_xxdai_as_collateral_for_mai.html" />
+    <link rel="prev" href="0174-qip174__add_yveth_on_optimism_as_collateral_for_mai__.html" />
     
 
     </head>
@@ -1417,7 +1415,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.103" data-path="0102-qip102__add_yvusdc_as_collateral_for_mai.html">
+        <li class="chapter " data-level="1.103" data-path="0102-qip102__add_yvusdc_as_collateral_for_mai.html">
             
                 <a href="0102-qip102__add_yvusdc_as_collateral_for_mai.html">
             
@@ -2366,7 +2364,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.176" data-path="0175-qip175__add_steth_as_collateral_for_mai.html">
+        <li class="chapter active" data-level="1.176" data-path="0175-qip175__add_steth_as_collateral_for_mai.html">
             
                 <a href="0175-qip175__add_steth_as_collateral_for_mai.html">
             
@@ -2409,7 +2407,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >QIP102: Add yvUSDC as Collateral for MAI</a>
+        <a href=".." >QIP175: Add stETH as collateral for MAI</a>
     </h1>
 </div>
 
@@ -2424,7 +2422,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="qip102-add-yvusdc-as-collateral-for-mai"><a href="https://snapshot.org/#/qidao.eth/proposal/0x8e2e404d259b716d4d1c9a27cfbc5144134f01acf642a75820b3740bbaddac24" target="_blank">QIP102: Add yvUSDC as Collateral for MAI</a></h1>
+                                <h1 id="qip175-add-steth-as-collateral-for-mai"><a href="https://snapshot.org/#/qidao.eth/proposal/0x1d41e5d1fb2658ef916a7e956896e27c7e8c99ec37bc83ca8b1b161b43afb2b5" target="_blank">QIP175: Add stETH as collateral for MAI</a></h1>
 <hr>
 <table>
 <thead>
@@ -2435,34 +2433,28 @@
 </thead>
 <tbody>
 <tr>
-<td>2022-05-16T16:00:11.000Z</td>
-<td>2022-05-19T16:00:00.000Z</td>
+<td>2022-11-21T07:04:07.000Z</td>
+<td>2022-11-24T07:04:07.000Z</td>
 </tr>
 </tbody>
 </table>
-<p>yvUSDC (Yearn Vault USDC) is a USDC strategy on Yearn Finance. It earns yield from Iron Bank.</p>
-<p>At the time of writing, there was $13M locked in yvUSDC. There are no major use cases for yvUSDC on Fantom.</p>
+<p>There are currently 7,729 wstETH tokens on Optimism, a total of $9M. Current APY for stETH is 8.5%. stETH is a liquid staking solution from Lido (<a href="https://lido.fi/" target="_blank">https://lido.fi/</a>).</p>
+<h3 id="fees">Fees</h3>
+<p>QiDao will implement an optional 0-10% performance fee on the APR of this strategy when used as collateral.</p>
+<h3 id="proposed-risk-parameters">Proposed risk parameters</h3>
+<p>130% minimum collateral to debt ratio
+Minimum borrow: 10 MAI
+Maximum borrow per vault: 500,000 MAI</p>
 <h3 id="motivation">Motivation</h3>
-<ul>
-<li>grow relationship with Yearn</li>
-<li>increase protocol revenue</li>
-<li>increase TVL</li>
-</ul>
+<p>Grow TVL on Optimism
+Increase revenue
+Strengthen relationship with Lido</p>
 <h3 id="quorum-standards">Quorum Standards</h3>
 <p>The option with the most votes will be adopted.</p>
-<p>A weighted average will be used to decide on the minimum CDR if the following conditions are met:</p>
-<ul>
-<li>The options to add yvUSDC collectively outweigh the option to not add yvUSDC.</li>
-<li>The option to not add yvUSDC receives more votes than any option to add yvUSDC.</li>
-</ul>
 <h3 id="options">Options</h3>
-<ul>
-<li>Add yvUSDC at 110% min CDR</li>
-<li>Add yvUSDC at 115% min CDR</li>
-<li>Add yvUSDC at 120% min CDR</li>
-<li>Further discussions needed </li>
-</ul>
-<p>min CDR = minimum collateral to debt ratio</p>
+<p>Add stETH as collateral
+Further discussions needed</p>
+<p>Risk analysis: <a href="https://riskmanagement.qidao.community/en/tokens/steth-ethereum" target="_blank">https://riskmanagement.qidao.community/en/tokens/steth-ethereum</a></p>
 <hr>
 <table>
 <thead>
@@ -2473,20 +2465,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Add yvUSDC at 110% min CDR</td>
-<td>23.75%</td>
-</tr>
-<tr>
-<td>Add yvUSDC at 115% min CDR</td>
-<td>0.10%</td>
-</tr>
-<tr>
-<td>Add yvUSDC at 120% min CDR</td>
-<td>74.44%</td>
+<td>Add stETH as collateral</td>
+<td>99.98%</td>
 </tr>
 <tr>
 <td>Further discussions needed</td>
-<td>1.71%</td>
+<td>0.02%</td>
 </tr>
 </tbody>
 </table>
@@ -2517,14 +2501,10 @@
 
             
                 
-                <a href="0101-qip101___add_xxdai_as_collateral_for_mai.html" class="navigation navigation-prev " aria-label="Previous page: QIP101:  Add xxDAI as Collateral for MAI">
+                <a href="0174-qip174__add_yveth_on_optimism_as_collateral_for_mai__.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: QIP174: Add yvETH on Optimism as collateral for MAI. ">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="0103-qip103__add_xboo_as_collateral_for_mai.html" class="navigation navigation-next " aria-label="Next page: QIP103: Add xBOO as Collateral for MAI">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -2533,7 +2513,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"QIP102: Add yvUSDC as Collateral for MAI","level":"1.103","depth":1,"next":{"title":"QIP103: Add xBOO as Collateral for MAI","level":"1.104","depth":1,"path":"proposals/0103-qip103__add_xboo_as_collateral_for_mai.md","ref":"proposals/0103-qip103__add_xboo_as_collateral_for_mai.md","articles":[]},"previous":{"title":"QIP101:  Add xxDAI as Collateral for MAI","level":"1.102","depth":1,"path":"proposals/0101-qip101___add_xxdai_as_collateral_for_mai.md","ref":"proposals/0101-qip101___add_xxdai_as_collateral_for_mai.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"proposals/0102-qip102__add_yvusdc_as_collateral_for_mai.md","mtime":"2022-11-28T01:02:50.013Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2022-11-28T01:02:50.713Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"QIP175: Add stETH as collateral for MAI","level":"1.176","depth":1,"previous":{"title":"QIP174: Add yvETH on Optimism as collateral for MAI. ","level":"1.175","depth":1,"path":"proposals/0174-qip174__add_yveth_on_optimism_as_collateral_for_mai__.md","ref":"proposals/0174-qip174__add_yveth_on_optimism_as_collateral_for_mai__.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"proposals/0175-qip175__add_steth_as_collateral_for_mai.md","mtime":"2022-11-28T01:02:50.021Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2022-11-28T01:02:50.713Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
