@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>QIP162: Update Vault Incentives Parameters · HonKit</title>
+        <title>QIP176: Vault Incentives Gauge (Round 24) · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 3.6.6">
@@ -57,10 +57,8 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="0163-qip163__sunset_qi_emissions_to_qi_pairs_outside_of_polygon.html" />
     
-    
-    <link rel="prev" href="0161-qip161__add_support_for_xcdot_vaults_on_stellaswap.html" />
+    <link rel="prev" href="0175-qip175__add_steth_as_collateral_for_mai.html" />
     
 
     </head>
@@ -2197,7 +2195,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.163" data-path="0162-qip162__update_vault_incentives_parameters.html">
+        <li class="chapter " data-level="1.163" data-path="0162-qip162__update_vault_incentives_parameters.html">
             
                 <a href="0162-qip162__update_vault_incentives_parameters.html">
             
@@ -2379,7 +2377,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.177" data-path="0176-qip176__vault_incentives_gauge__round_24_.html">
+        <li class="chapter active" data-level="1.177" data-path="0176-qip176__vault_incentives_gauge__round_24_.html">
             
                 <a href="0176-qip176__vault_incentives_gauge__round_24_.html">
             
@@ -2422,7 +2420,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >QIP162: Update Vault Incentives Parameters</a>
+        <a href=".." >QIP176: Vault Incentives Gauge (Round 24)</a>
     </h1>
 </div>
 
@@ -2437,7 +2435,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="qip162-update-vault-incentives-parameters"><a href="https://snapshot.org/#/qidao.eth/proposal/0x0154c9d2f61e11b3012a520e3b24c50bc68db8fd01dfeadd59993a8cf4bcda2c" target="_blank">QIP162: Update Vault Incentives Parameters</a></h1>
+                                <h1 id="qip176-vault-incentives-gauge-round-24"><a href="https://snapshot.org/#/qidao.eth/proposal/0xb8bf541a2698d288fee4101891cb138c5dd739872a61426a504ff44c3222bcc3" target="_blank">QIP176: Vault Incentives Gauge (Round 24)</a></h1>
 <hr>
 <table>
 <thead>
@@ -2448,31 +2446,18 @@
 </thead>
 <tbody>
 <tr>
-<td>2022-10-03T20:40:36.000Z</td>
-<td>2022-10-06T04:00:00.000Z</td>
+<td>2022-12-01T01:30:00.000Z</td>
+<td>2022-12-03T17:30:00.000Z</td>
 </tr>
 </tbody>
 </table>
-<h3 id="proposal">Proposal:</h3>
-<ul>
-<li>Lower the maximum amount of incentives that one collateral can receive from 20% to 15% of the total.</li>
-<li>Lower the minimum percentage of votes that a chain needs to &quot;meet quorum&quot; and receive incentives from 8.33% to 5%.</li>
-<li>Set a 100 MAI borrowing minimum to receive incentives unless the minimum borrow for a vault is higher - such as the 10k minimum on Ethereum vaults - which would supersede the 100 min.</li>
-<li>Reduce the total incentives from 180K to 150K QI a week. </li>
-</ul>
-<h3 id="motivation">Motivation:</h3>
-<ul>
-<li>Ensure that borrow incentives are able to be directed to many chains, even smaller ones.</li>
-<li>Ensure that borrow incentives do not go solely to vaults with limited debt ceilings and that they accomplish the goal of encouraging more borrowing.</li>
-<li>Reduce gas costs, dust airdrops and ensure a minimum profitability of the incentives due to the 0.5% repayment fee by setting a minimum borrow.</li>
-</ul>
-<h3 id="quorum-standards">Quorum Standards</h3>
-<p>The option with the most votes will be adopted.</p>
-<h3 id="options">Options:</h3>
-<ul>
-<li>Approve proposal</li>
-<li>Further discussions needed </li>
-</ul>
+<p>Vault incentives are allocated a total of 150k Qi per week. Following QIP047 &amp; QIP162 the distribution of these rewards among vault types will be decided every two weeks by the DAO.</p>
+<p>To vote, you must hold Qi. You can distribute your voting power among as many and as few collateral types as you wish. The aggregate distribution of responses will be used to calculate the final distribution of rewards.</p>
+<h3 id="quorum-standards">Quorum Standards:</h3>
+<p>Following QIP162, a minimum allocation of 7,500 QI per week (5% of the vote) is needed for a chain to receive rewards. If the collateral types for a chain collectively do not achieve a 7,500 QI per week allocation, then their rewards will be proportionally split among the other eligible collateral types.</p>
+<p>Each vault type can get a maximum of 15% of the total incentives. Any extra percentage over 15% will be distributed among the other collaterals receiving votes in proportion to their vote share.</p>
+<p>Vaults must have a minimum of 100 MAI debt to receive incentives unless the minimum borrow for a vault type is set higher.</p>
+<p>Note: Qi holders will be able to vote from any chain that has QI.</p>
 <hr>
 <table>
 <thead>
@@ -2483,12 +2468,220 @@
 </thead>
 <tbody>
 <tr>
-<td>Approve proposal</td>
-<td>66.23%</td>
+<td>WETH (Ethereum)</td>
+<td>0.01%</td>
 </tr>
 <tr>
-<td>Further discussions needed</td>
-<td>33.77%</td>
+<td>WBTC (Ethereum)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>StakeDAO Curve ETH/stETH (Eth)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn Curve ETH/stETH (Ethereum)</td>
+<td>0.01%</td>
+</tr>
+<tr>
+<td>Yearn WETH (Ethereum)</td>
+<td>0.04%</td>
+</tr>
+<tr>
+<td>Yearn LINK (Ethereum)</td>
+<td>12.32%</td>
+</tr>
+<tr>
+<td>WETH (Optimism)</td>
+<td>0.03%</td>
+</tr>
+<tr>
+<td>WBTC (Optimism)</td>
+<td>0.10%</td>
+</tr>
+<tr>
+<td>OP (Optimism)</td>
+<td>2.32%</td>
+</tr>
+<tr>
+<td>Beefy Aave ETH (Optimism)</td>
+<td>2.29%</td>
+</tr>
+<tr>
+<td>Beefy Aave BTC (Optimism)</td>
+<td>14.31%</td>
+</tr>
+<tr>
+<td>BNB (BNB)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>CAKE (BNB)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>DODO (BNB)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WETH (Gnosis Chain)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>GNO (Gnosis Chain)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Compounding Aave MATIC (Polygon)</td>
+<td>0.07%</td>
+</tr>
+<tr>
+<td>WETH (Polygon)</td>
+<td>7.36%</td>
+</tr>
+<tr>
+<td>Compounding Aave ETH (Polygon)</td>
+<td>0.02%</td>
+</tr>
+<tr>
+<td>Compounding Aave AAVE (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>AAVE (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>LINK (Polygon)</td>
+<td>0.12%</td>
+</tr>
+<tr>
+<td>CRV (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WBTC (Polygon)</td>
+<td>5.69%</td>
+</tr>
+<tr>
+<td>Compounding Aave WBTC (Polygon)</td>
+<td>0.09%</td>
+</tr>
+<tr>
+<td>BAL (Polygon)</td>
+<td>0.09%</td>
+</tr>
+<tr>
+<td>GHST (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Frax Share (Polygon)</td>
+<td>0.01%</td>
+</tr>
+<tr>
+<td>vGHST (Polygon)</td>
+<td>7.55%</td>
+</tr>
+<tr>
+<td>SAND (Polygon)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Wrapped MATIC (Polygon)</td>
+<td>7.88%</td>
+</tr>
+<tr>
+<td>xxLINK (Polygon)</td>
+<td>10.63%</td>
+</tr>
+<tr>
+<td>KNC (Polygon)</td>
+<td>2.38%</td>
+</tr>
+<tr>
+<td>WFTM (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn vault WFTM (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn vault BTC (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn vault YFI (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Yearn vault ETH (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WETH (Fantom)</td>
+<td>0.09%</td>
+</tr>
+<tr>
+<td>SUSHI (Fantom)</td>
+<td>18.19%</td>
+</tr>
+<tr>
+<td>LINK (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WBTC (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>mooBIFI (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>xBOO (Fantom)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>METIS (Metis)</td>
+<td>0.01%</td>
+</tr>
+<tr>
+<td>WETH (Metis)</td>
+<td>0.19%</td>
+</tr>
+<tr>
+<td>m.WBTC (Metis)</td>
+<td>7.98%</td>
+</tr>
+<tr>
+<td>MOVR (Moonriver)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WETH (Arbitrum)</td>
+<td>0.19%</td>
+</tr>
+<tr>
+<td>WBTC (Arbitrum)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Beefy Aave AVAX (Avalanche)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WBTC (Avalanche)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WETH (Avalanche)</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>WAVAX (Avalanche)</td>
+<td>0.00%</td>
 </tr>
 </tbody>
 </table>
@@ -2519,14 +2712,10 @@
 
             
                 
-                <a href="0161-qip161__add_support_for_xcdot_vaults_on_stellaswap.html" class="navigation navigation-prev " aria-label="Previous page: QIP161: Add Support for xcDOT Vaults on StellaSwap">
+                <a href="0175-qip175__add_steth_as_collateral_for_mai.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: QIP175: Add stETH as collateral for MAI">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
-                
-                <a href="0163-qip163__sunset_qi_emissions_to_qi_pairs_outside_of_polygon.html" class="navigation navigation-next " aria-label="Next page: QIP163: Sunset QI Emissions to QI Pairs Outside of Polygon">
-                    <i class="fa fa-angle-right"></i>
-                </a>
                 
             
         
@@ -2535,7 +2724,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"QIP162: Update Vault Incentives Parameters","level":"1.163","depth":1,"next":{"title":"QIP163: Sunset QI Emissions to QI Pairs Outside of Polygon","level":"1.164","depth":1,"path":"proposals/0163-qip163__sunset_qi_emissions_to_qi_pairs_outside_of_polygon.md","ref":"proposals/0163-qip163__sunset_qi_emissions_to_qi_pairs_outside_of_polygon.md","articles":[]},"previous":{"title":"QIP161: Add Support for xcDOT Vaults on StellaSwap","level":"1.162","depth":1,"path":"proposals/0161-qip161__add_support_for_xcdot_vaults_on_stellaswap.md","ref":"proposals/0161-qip161__add_support_for_xcdot_vaults_on_stellaswap.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"proposals/0162-qip162__update_vault_incentives_parameters.md","mtime":"2022-12-05T01:00:09.846Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2022-12-05T01:00:10.356Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"QIP176: Vault Incentives Gauge (Round 24)","level":"1.177","depth":1,"previous":{"title":"QIP175: Add stETH as collateral for MAI","level":"1.176","depth":1,"path":"proposals/0175-qip175__add_steth_as_collateral_for_mai.md","ref":"proposals/0175-qip175__add_steth_as_collateral_for_mai.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"proposals/0176-qip176__vault_incentives_gauge__round_24_.md","mtime":"2022-12-05T01:00:09.846Z","type":"markdown"},"gitbook":{"version":"3.6.6","time":"2022-12-05T01:00:10.356Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
